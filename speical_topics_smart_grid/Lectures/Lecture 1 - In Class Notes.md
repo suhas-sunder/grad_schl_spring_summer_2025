@@ -1,6 +1,6 @@
 ### Traditional Power Generation
 - Movement of electrons are generated when the potential at one end is diff from the potential at another end. Generators produce that potential difference. ✅
-- Modifications need to be made over time. Power needs to be delivered and cannot be halted for changes/modifications. 
+- Modifications need to be made over time. Power needs to be delivered and cannot be halted for changes/modifications.  ✅
 - Majority of generation is converting mechanical to electrical power. ✅
 - A small percentage is done via renewable. Eg. Solar uses sunlight to produce the potential difference for power generation. Hydro. Wind.✅
 - Mechanical can come from water falling where potential energy is converted to electrical power as the generator rotates. Thermal generates steam. Nuclear is similar where through heat power is generated. All of these are mechanical power generation. ✅
@@ -22,20 +22,20 @@
 	- Enable the trading of bulk power.
 - Bulk power users (eg. industrial) may connect at transmission voltage levels.✅
 - Western, eastern, and Texas are not synchronized. Power can only be transmitted via DC transmission lines between these three interconnection. NERC Interconnections.
-- Urban transmission systems are high voltage cables. Not overhead lines.
-- Stepping down to distribution: 69kv is the voltage coming in, and going out will be either 20kv or 13.8 kv which go out on several distribution feeds. Then it will be brought down to 16 volts before usage.
+- Urban transmission systems are high voltage cables. Not overhead lines. ✅
+- Stepping down to distribution: 69kv is the voltage coming in, and going out will be either 20kv or 13.8 kv which go out on several distribution feeds. Then it will be brought down to 16 volts before usage. ✅
 
 ### Power System Operation
-- Wicket gate operating mechanism: In real time power produced has to match the load. All the time. If it doesn't match, the consequences could be detrimental in the system. Both active and reactive power have to match all the time, including losses. All losses have to be accounted for. x should always = y and z for both active and reactive. If they don't match things have to be done to make them match otherwise problems will occur. Measurements and values have to be known at every point in the power system. Then it has to be controlled at every point to re-synchronize.
-- With a hydraulic system power can be controlled using a picket gate using a servo motor (how much water is coming in). Water inlet gates and are adjusted by the servo connection levers. This is for active power.
-- The reactive power controls the voltage on the system. In order to remain synchronized, voltage and frequency must be maintained. Voltage is with reactive power. Frequency is managed by active power.
-- Automatic voltage regulators are used to maintain voltage for reactive power. It controls the excitation to the generator, which controls the voltage. Governors control the mechanical power. 
-- When connected to the system, one generator can't change many things since the system regulates a lot. So when it is not connected to a large system, governors control the speed, and avr controls the voltage. Once connected to the system, the little generator has no say since the large system is much larger which will control the speed and voltage. Therefore, genrator and avr can instead adjust the power and something else (check slide) instead. These have a limit though. Each generator has different capabilities and different devices are used to measure these limits. If generators go beyond these limits, generators are kicked out and the result is a blackout.
-- If real power, the load, is less than the generated power, the frequency will go up (Gens will start speeding up). Other way around if load is more generation is less the frequency will go down. Turbines are not designed within a range so it can't operate at these higher or lower frequencies.
-- Balance of frequency is achieved by monitoring daily and seasonal load fluctuations. The system forecasts loads 1h, 2h, some duration away. Then the load will be predicted and set ahead of time to create a proper balance. This is called load forecasting.
-- Generators and sometimes capacitors control reactive power in a system (voltage). AVR is used to match the reactive power.
+- Wicket gate operating mechanism: In real time power produced has to match the load. All the time. If it doesn't match, the consequences could be detrimental in the system. Both active and reactive power have to match all the time, including losses. All losses have to be accounted for. x should always = y and z for both active and reactive. If they don't match things have to be done to make them match otherwise problems will occur. Measurements and values have to be known at every point in the power system. Then it has to be controlled at every point to re-synchronize. ✅
+- With a hydraulic system power can be controlled using a wicket gate using a servo motor (how much water is coming in). Water inlet gates and are adjusted by the servo connection levers. This is for active power. ✅
+- The reactive power controls the voltage on the system. In order to remain synchronized, voltage and frequency must be maintained. Voltage is with reactive power. Frequency is managed by active power. ✅
+- Automatic voltage regulators are used to maintain voltage for reactive power. It controls the excitation to the generator, which controls the voltage. Governors control the mechanical power.  ✅
+- When connected to the system, one generator can't change many things since the system regulates a lot. So when it is not connected to a large system, governors control the speed, and avr controls the voltage. Once connected to the system, the little generator has no say since the large system is much larger which will control the speed and voltage. Therefore, genrator and avr can instead adjust the power and something else (check slide) instead. These have a limit though. Each generator has different capabilities and different devices are used to measure these limits. If generators go beyond these limits, generators are kicked out and the result is a blackout. ✅
+- If real power, the load, is less than the generated power, the frequency will go up (Gens will start speeding up). Other way around if load is more generation is less the frequency will go down. Turbines are not designed within a range so it can't operate at these higher or lower frequencies. ✅
+- Balance of frequency is achieved by monitoring daily and seasonal load fluctuations. The system forecasts loads 1h, 2h, some duration away. Then the load will be predicted and set ahead of time to create a proper balance. This is called load forecasting. ✅
+- Generators and sometimes capacitors control reactive power in a system (voltage). AVR is used to match the reactive power. ✅
 - If you are short of reactive power, some companies might provide ancillary services, which connects to the system as needed to provide the needed power. This was the old system. These days power electronics are used but with these devices there is low inertial. 
-- If real power load is less than generation, the generators will speed up. Because load is less. 
+- If real power load is less than generation, the generators will speed up. Because load is less.  ✅
 	- Real power: Controls the frequency which is indirectly related to the speed. In NA it maintains a freq of 60 Hz. When load and gen match freq is 60hz.
 		- Speed goes down. Frequency goes down as a result.
 			- Load: more
@@ -167,5 +167,4 @@
 	- There needs to be more r and d
 	- More (everything else on list)
 - Smart Grid and Sustainable Development Goals (SDGs)
-	- Codes for goals setup by UN which contributes to the development of Smart Grid
-- 
+	- Codes for goals setup by UN which contributes to the development of Smart Grid.
