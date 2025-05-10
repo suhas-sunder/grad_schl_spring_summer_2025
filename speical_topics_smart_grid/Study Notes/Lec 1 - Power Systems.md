@@ -1,4 +1,3 @@
-
 ### Generation, Transmission & Distribution
 
 ![[Pasted image 20250506203813.png]]
