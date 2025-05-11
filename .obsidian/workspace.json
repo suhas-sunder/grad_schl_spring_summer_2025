@@ -11,14 +11,12 @@
             "id": "0856fcf171cfe79b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "speical_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
-                "mode": "source",
-                "source": false
+                "file": "speical_topics_smart_grid/Z ALL Images/WhatsApp Image 2025-05-11 at 17.46.09_29f09693.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Lec 1 - Power Systems"
+              "icon": "lucide-image",
+              "title": "WhatsApp Image 2025-05-11 at 17.46.09_29f09693"
             }
           }
         ]
@@ -168,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0856fcf171cfe79b",
+  "active": "e9b59ea69526b45d",
   "lastOpenFiles": [
-    "WhatsApp Image 2025-05-11 at 17.46.09_593b9f8b.jpg",
-    "WhatsApp Image 2025-05-11 at 17.46.09_29f09693.jpg",
+    "speical_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
+    "speical_topics_smart_grid/Z ALL Images/WhatsApp Image 2025-05-11 at 17.46.09_593b9f8b.jpg",
+    "speical_topics_smart_grid/Z ALL Images/WhatsApp Image 2025-05-11 at 17.46.09_29f09693.jpg",
     "speical_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
     "speical_topics_smart_grid/Z ALL Images/Pasted image 20250511164530.png",
     "speical_topics_smart_grid/Z ALL Images/Pasted image 20250506203622.png",
@@ -179,7 +178,6 @@
     "speical_topics_smart_grid/Study-Notes-GitHub-Friendly/Generation, Transmission & Distribution.md",
     "speical_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
     "speical_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
-    "speical_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
     "speical_topics_smart_grid/Lectures/Lecture 2 - In Class Notes.md",
     "speical_topics_smart_grid/Study-Notes-GitHub-Friendly",
     "Pasted image 20250511140059.png",
@@ -188,7 +186,6 @@
     "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192919.png",
     "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192903.png",
     "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192833.png",
-    "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192800.png",
     "speical_topics_smart_grid/Lectures/Lecture 1 - In Class Notes.md",
     "speical_topics_smart_grid/All Lectures/Power Systems - Introduction.pdf",
     "speical_topics_smart_grid/All Lectures/Smart Grid_Intro.pdf",
