@@ -53,13 +53,13 @@
 	- Automated processes reduce cost for utilities because there can be less manual adjustments, thus less extremely skilled workers need to be paid for work that can be automated more reliably.
 	- The operator needs to know how much power is being fed into the system in order to realize the benefits and compensate the end user accordingly.
 
-- **What is AMI & key benefits (one technology)![[Pasted image 20250507071925.png]] ![[Pasted image 20250507072056.png]]
+- **What is AMI (Advanced Metering Infrastructure) & key benefits (one technology)![[Pasted image 20250507071925.png]] ![[Pasted image 20250507072056.png]]
 	- Almost every part of the world has some form of AMI, advanced metering infrastructure.
 	- This is basically measuring your power at various intervals at businesses, homes etc. Then it communicates this information back at the control center, so that they know exactly how much power is being consumed in the area.
 	- The two way communication part is not being used much even though it has the capability. This is the end goal so that we can monitor the load being used on the system and enabling two way communication to benefit both consumers and utility companies.
 	- Automatically shifts consumer behavior and detects electricity theft and illegal activities. Eg. marijuana grow-ups when energy consumption goes up suddenly in some area.
 
-- **Consumer empowerment thought AIM ![[Pasted image 20250507072135.png]]
+- **Consumer empowerment thought AMI ![[Pasted image 20250507072135.png]]
 	- Informs energy saving behavior so that users can decide when and how they want to consume power as it becomes more/less available.
 
 - **Role of sensors in smart grid (another technology)![[Pasted image 20250507072519.png]]

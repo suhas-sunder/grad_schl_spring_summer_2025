@@ -91,8 +91,14 @@
 
 ### Power Market in Canada ![[Pasted image 20250508214711.png]]
 - IESO manages the market and also makes sure the system is reliably operated. So it manages the settlements and financial operations of $13 Billion wholesale market.
+- The **IESO** stands for the **Independent Electricity System Operator** — it’s the organization that operates the **electricity system and market** in the province of **Ontario, Canada**.
+	- Balances supply and demand 24/7
+	- Dispatches generators, imports, and storage
+	- Operates the wholesale electricity market
+	- Sets real-time market prices for electricity (like a stock exchange for power)
+	- Facilitates buying/selling of electricity among generators, retailers, and large consumers
 - Power market gets continuous data from SCADA system and Load forecasting center through Internet based VPN communication (Leased line gives speed around 156 Mbit/s).
-
+![[Pasted image 20250511164530.png]]
 - **Ontario Power Market in Canada
 	- Industry unbundling in 1998 – creation of OPG, Hydro One and IESO
 	- Functional separation with ISO

@@ -54,7 +54,7 @@
 	- One end might be **three phase 500 kv system transformer** but on the other end, distribution level, we **may use 230 kV system transformer**. ![[Pasted image 20250506212934.png]]
 	- At the final step of the power delivery chain a **three-phase distribution transformer setup** converts medium-voltage (25 kV) **down to** low-voltage (416 V) **for industrial or commercial use**. ![[Pasted image 20250506212954.png]]
 	- **416V** is the 3-phase voltage **between phases**. **240V** is the **usable single-phase voltage** for standard outlets and appliances (from one phase to neutral). ![[Pasted image 20250506211734.png]]
-	- **Voltage levels** used for transmission lines in North America typically **range from 60kV to 756kV** where the latter lines are the highest voltage level commonly used for long-distance, high-capacity transmission.
+	- **Voltage levels** used for transmission lines in North America typically **range from 60kV to 765kV** where the latter lines are the highest voltage level commonly used for long-distance, high-capacity transmission.
 	- In contrast, **Russia** has implemented **1,000 kV (1 MV) transmission lines**, which are higher voltage levels than those found in North America. These ultra-high voltage lines are used for long-distance power transmission across vast territories, which helps to reduce energy losses over long distances.
 
 	- **DC is good for Synchronization**:
@@ -219,3 +219,6 @@
 		- **If voltage is too high:
 			- Load: less
 			- Generation: more
+
+### Generator vs AVR
+![[WhatsApp Image 2025-05-11 at 17.46.09_29f09693.jpg]] ![[WhatsApp Image 2025-05-11 at 17.46.09_593b9f8b.jpg]]
