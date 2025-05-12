@@ -1,9 +1,9 @@
 ### Generation, Transmission & Distribution
 
-![[Pasted image 20250506203813.png]]
+![[20250506203813.png]]
 
 ### Generating Station
-![[Pasted image 20250506203622.png]]
+![[20250506203622.png]]
 
 #### Types of generation
 - Nuclear Power
@@ -25,12 +25,12 @@
 
 - **Generators** are always generating **balanced three phase positive sequence**.
 
-- **Generators** produce a potential difference. Movement of electrons are generated when **potential at one end** is different from the **potential of another**. ![[Pasted image 20250506204022.png]]
-- Generator ![[Pasted image 20250506204056.png]]
-- Turbine ![[Pasted image 20250506204136.png]]
-- Power System ![[Pasted image 20250506204155.png]]
+- **Generators** produce a potential difference. Movement of electrons are generated when **potential at one end** is different from the **potential of another**. ![[20250506204022.png]]
+- Generator ![[20250506204056.png]]
+- Turbine ![[20250506204136.png]]
+- Power System ![[20250506204155.png]]
 
-### Three Phase![[Pasted image 20250506212816.png]]
+### Three Phase![[20250506212816.png]]
 - A **generator** always produces **three alternating currents (phases)**:
 	- Each phase is **120° out of phase** with the others. They all have the **same shape and size**, but start **120° apart**:
 		- Phase A starts at 0°     
@@ -46,14 +46,14 @@
 		- **Constant power delivery** (single-phase pulses, three-phase is smooth).
 		- **Motors run smoother** and more efficiently.
 
-### Transmission System ![[Pasted image 20250506203652.png]]
+### Transmission System ![[20250506203652.png]]
 -  Generators generally produce **13.8kv to 20kv** range which is not great for transmission due to the enormous loss in energy by the time it reaches its destination. 
 	-  We need to raise the **voltage up to reduce losses**.
 	- Using more **winding on the secondary coils of a transformer** we increase the voltage. eg 20kv would lose a lot more compared to 200kv **to reduce losses**. This is called using **step-up transformers**.
 	- Use **step-down transformers** to **lower the voltage** at the consumer end (e.g., 230 kV → 11 kV → 240 V for homes).
-	- One end might be **three phase 500 kv system transformer** but on the other end, distribution level, we **may use 230 kV system transformer**. ![[Pasted image 20250506212934.png]]
-	- At the final step of the power delivery chain a **three-phase distribution transformer setup** converts medium-voltage (25 kV) **down to** low-voltage (416 V) **for industrial or commercial use**. ![[Pasted image 20250506212954.png]]
-	- **416V** is the 3-phase voltage **between phases**. **240V** is the **usable single-phase voltage** for standard outlets and appliances (from one phase to neutral). ![[Pasted image 20250506211734.png]]
+	- One end might be **three phase 500 kv system transformer** but on the other end, distribution level, we **may use 230 kV system transformer**. ![[20250506212934.png]]
+	- At the final step of the power delivery chain a **three-phase distribution transformer setup** converts medium-voltage (25 kV) **down to** low-voltage (416 V) **for industrial or commercial use**. ![[20250506212954.png]]
+	- **416V** is the 3-phase voltage **between phases**. **240V** is the **usable single-phase voltage** for standard outlets and appliances (from one phase to neutral). ![[20250506211734.png]]
 	- **Voltage levels** used for transmission lines in North America typically **range from 60kV to 765kV** where the latter lines are the highest voltage level commonly used for long-distance, high-capacity transmission.
 	- In contrast, **Russia** has implemented **1,000 kV (1 MV) transmission lines**, which are higher voltage levels than those found in North America. These ultra-high voltage lines are used for long-distance power transmission across vast territories, which helps to reduce energy losses over long distances.
 
@@ -62,7 +62,7 @@
 		- **DC lines** offer a solution here because they don't have the frequency issues inherent in AC systems. DC can be used to link two asynchronous AC grids, allowing for easier synchronization and the ability to transfer large amounts of power efficiently, even if the grids aren't running at the same frequency.
 
 	- **Bulk Transmission System**: This refers to systems designed to transport large amounts of electricity over long distances.
-		- Power transmission lines are often designed using **bundled conductors**, which means multiple conductors are grouped together in parallel to handle larger amounts of power while minimizing energy loss and improving efficiency. These **bundled conductors might consist of 1, 2, or 4 conductors per phase**, depending on the required power capacity. ![[Pasted image 20250506213149.png]]
+		- Power transmission lines are often designed using **bundled conductors**, which means multiple conductors are grouped together in parallel to handle larger amounts of power while minimizing energy loss and improving efficiency. These **bundled conductors might consist of 1, 2, or 4 conductors per phase**, depending on the required power capacity. ![[20250506213149.png]]
 		- The design of these systems is optimized for **high-efficiency transmission over long distances to minimize loss**.
 
 	- **Loop or Meshed System for Reliability**: In order to ensure the **reliability** of the grid, transmission systems are often **looped** or **meshed**.
@@ -78,7 +78,7 @@
 		- Power generation can be located in regions with **abundant resources** (like hydroelectric or wind power), and this power can be transmitted across long distances to areas of high demand. 
 		- This **market exchange** of electricity also allows for **economic efficiency**, as areas with lower-cost generation can export power to regions with higher demand, optimizing the balance between generation and consumption.
 
-	- **NERC Interconnections**: The **Western**, **Eastern**, and **Texas** grids (or **interconnections**) are large power networks within North America. ![[Pasted image 20250506214000.png]]
+	- **NERC Interconnections**: The **Western**, **Eastern**, and **Texas** grids (or **interconnections**) are large power networks within North America. ![[20250506214000.png]]
 		- **Western Interconnection**: Covers the western part of the United States and parts of Canada.		    
 		- **Eastern Interconnection**: Covers the eastern part of the United States, including most of Canada.		    
 		- **Texas Interconnection (ERCOT)**: Texas has its own isolated grid, managed by ERCOT (Electric Reliability Council of Texas), which is separate from the Western and Eastern interconnections.
@@ -90,15 +90,15 @@
 	- **Why?** Urban environments have limited space and higher population density, so **underground cables** are used to prevent interference with buildings and infrastructure, reduce visual clutter, and minimize the risks of damage from storms or accidents.    
 	- These underground cables are often more expensive to install and maintain, but they are necessary for urban settings where overhead lines would not be feasible.
 
-- **Stepping Down Voltage for Distribution**: ![[Pasted image 20250506214334.png]]
+- **Stepping Down Voltage for Distribution**: ![[20250506214334.png]]
 	- **69 kV** is typically the voltage that enters the distribution system from the transmission grid. This high voltage is needed for long-distance transmission to minimize energy losses. 
 	- **Distribution Voltage**: After entering the distribution system, the voltage is **stepped down** to lower levels for delivery to homes and businesses.     
 	    - The common voltages used for distribution are **20 kV** or **13.8 kV**. These are lower, safer voltages suitable for the final stages of power delivery.         
 	- **Local Feeds**: Power is then distributed via **several distribution feeds**, often split into smaller networks to serve specific neighborhoods or regions.
 
 ### Power Systems Operation
-- A **distribution substation** is a critical part of the electrical grid that acts as the intermediary between the **high-voltage transmission network** and the **low-voltage distribution network** that delivers electricity to homes, businesses, and other end users. It is designed to **step down** the voltage from high transmission levels to a lower, usable voltage for distribution to consumers. ![[Pasted image 20250506214637.png]]
-- Distribution substation single line diagram ![[Pasted image 20250506214703.png]]
+- A **distribution substation** is a critical part of the electrical grid that acts as the intermediary between the **high-voltage transmission network** and the **low-voltage distribution network** that delivers electricity to homes, businesses, and other end users. It is designed to **step down** the voltage from high transmission levels to a lower, usable voltage for distribution to consumers. ![[20250506214637.png]]
+- Distribution substation single line diagram ![[20250506214703.png]]
 
 - **Active Power (Real Power)**: This is the power that does the useful work in the system (e.g., turning motors, lighting lamps, etc.). It is measured in watts (W) and is typically represented by **P**.    
 	- If active power is not balanced with load demand, it can cause frequency fluctuations or even blackouts, as the system's frequency will drift. For example, if generation is too low, the frequency will drop, leading to voltage instability.
