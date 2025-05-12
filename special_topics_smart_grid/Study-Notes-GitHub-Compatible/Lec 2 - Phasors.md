@@ -1,5 +1,5 @@
-### **Phase Shifting ![](../Images/20250510185735.png) ![](../Images/20250510185806.png) ![](../Images/20250510185903.png) ![](../Images/20250510185938.png)
-### When does the time start?  ![](../Images/20250510185953.png)  ![](../Images/20250510185835.png) ![](../Images/20250510185903.png)
+### **Phase Shifting ![[Pasted image 20250510185735.png]] ![[Pasted image 20250510185806.png]] ![[Pasted image 20250510185903.png]] ![[Pasted image 20250510185938.png]]
+### When does the time start?  ![[Pasted image 20250510185953.png]]  ![[Pasted image 20250510185835.png]] ![[Pasted image 20250510185903.png]]
  
 - The time is arbitrary. We don't know the time. So we assume time to be 0 at a certain point. That's how phasors are defined. The process of moving the window, and phasors are calculated, the phasors rotate. 
 - Using phasors is easier because waveforms can added if converted at the same reference.

@@ -1,33 +1,33 @@
-![[Pasted image 20250508211657.png]]
-![[Pasted image 20250508211740.png]]
+![](../Images/20250508211657.png)
+![](../Images/20250508211740.png)
 
-### Canada Vs US Power Generation![[Pasted image 20250508211948.png]]
+### Canada Vs US Power Generation![](../Images/20250508211948.png)
 - Majority of US power generation is coal.
 - Majority of Canadian generation is Hydro
 - Canada generates only 593.6 Terra Watt Hours of power
 - USA generates 4,055 Terra Watt of power
 
-### US/Canada power flow ![[Pasted image 20250508212029.png]] ![[Pasted image 20250508212043.png]]
+### US/Canada power flow ![](../Images/20250508212029.png) ![](../Images/20250508212043.png)
 - With traditional power generation, we have a large generation system and power flows through the loads. North American power systems are interconnected.
 - Production in USA is much higher with around 4,055 Terra Watt Hours. Canada was only 500ish.
 - Lots of interconnection between US and Canada. We are better connected North/South vs East/West.'
 - There is now a push to go East/West that is being talked about.
 - Import and export of power between US and Canada. Manitoba, Ontario, etc. export a large amount. BC, AB, SK, etc. import more than export.
 
-### Power Imports/Exports Over Time![[Pasted image 20250508212146.png]]
+### Power Imports/Exports Over Time![](../Images/20250508212146.png)
 - Power generation has been fairly steady over time as seen in the chart, however, it is predicted to go up significantly in the near future because of recent technical developments.
 	- Electric Vehicles
 	- AI
 	- Crypto Mining
 
-### North American Reliability Council (NERC) ![[Pasted image 20250508212602.png]]
+### North American Reliability Council (NERC) ![](../Images/20250508212602.png)
 - The original NERC was formed on June 1, 1968 by the electric utility industry to promote the reliability and adequacy of bulk power transmission in the electric utility systems of North America.
 - The Electric Reliability Act of 1967, passed due to the political pressure and fallout from the 1965 blackout, was a significant turning point in the arena of electric reliability in North America.
 - NERC's mission states that it is to "ensure that the bulk power system in North America is reliable.”
 - NERC oversees eight regional reliability entities and encompasses all of the interconnected power systems of the contiguous United States, Canada and a portion of Baja California in Mexico.
 - Very strict rules and trade agreements that need to be followed and maintained. There are eight reliability entities within the system which looks at the reliability within each area (8 areas), which is then reported to NERC. 
 
-### NERC High-Voltage Direct Current (HVDC) ![[Pasted image 20250508212747.png]]
+### NERC High-Voltage Direct Current (HVDC) ![](../Images/20250508212747.png)
 - HVDC stands for High-Voltage Direct Current, which is a method of electric power transmission using direct current (DC) for electric power transmission, in contrast with the more common alternating current (AC) transmission systems. HVDC lines are commonly used for long-distance power transmission since they require fewer conductors and incur less power loss than equivalent AC lines.
 - Hydro Quebec sits on its own. It is not synchronized because it only has DC lines going, so it is asynchronously connected to NPCC.
 - Similarly, ERCOT connected via dc lines. Same with Quebec and Alberta. They are not synchronized so they need DC connection.
@@ -76,29 +76,23 @@
 	- The ASCC region covers the two grids in the Alaska Interconnection, one of which is in South Central Alaska and the other in the Alaska Panhandle.
 	- Neither of the small grids in ASCC has interties to any other interconnection.
 
-### Electricity in Canada: A Brief History![[Pasted image 20250508214059.png]]
-![[Pasted image 20250508214124.png]]
-![[Pasted image 20250508214142.png]]
-![[Pasted image 20250508214249.png]]
-![[Pasted image 20250508214310.png]]
-![[Pasted image 20250508214328.png]]
-![[Pasted image 20250508214350.png]]
-![[Pasted image 20250508214409.png]]
-![[Pasted image 20250508214432.png]]
-![[Pasted image 20250508214455.png]]
+### Electricity in Canada: A Brief History![](../Images/20250508214059.png)
+![](../Images/20250508214124.png)
+![](../Images/20250508214142.png)
+![](../Images/20250508214249.png)
+![](../Images/20250508214310.png)
+![](../Images/20250508214328.png)
+![](../Images/20250508214350.png)
+![](../Images/20250508214409.png)
+![](../Images/20250508214432.png)
+![](../Images/20250508214455.png)
 
-### Canada is the SIXTH LARGEST producer of electricity in the WORLD ![[Pasted image 20250508214538.png]]
+### Canada is the SIXTH LARGEST producer of electricity in the WORLD ![](../Images/20250508214538.png)
 
-### Power Market in Canada ![[Pasted image 20250508214711.png]]
+### Power Market in Canada ![](../Images/20250508214711.png)
 - IESO manages the market and also makes sure the system is reliably operated. So it manages the settlements and financial operations of $13 Billion wholesale market.
-- The **IESO** stands for the **Independent Electricity System Operator** — it’s the organization that operates the **electricity system and market** in the province of **Ontario, Canada**.
-	- Balances supply and demand 24/7
-	- Dispatches generators, imports, and storage
-	- Operates the wholesale electricity market
-	- Sets real-time market prices for electricity (like a stock exchange for power)
-	- Facilitates buying/selling of electricity among generators, retailers, and large consumers
 - Power market gets continuous data from SCADA system and Load forecasting center through Internet based VPN communication (Leased line gives speed around 156 Mbit/s).
-![[Pasted image 20250511164530.png]]
+
 - **Ontario Power Market in Canada
 	- Industry unbundling in 1998 – creation of OPG, Hydro One and IESO
 	- Functional separation with ISO
@@ -149,24 +143,24 @@
 - **Newfoundland  & Labrador Power Market in Canada 
 	- Energy policies under review
 
-### Ontario Energy Facts![[Pasted image 20250508215758.png]]
-![[Pasted image 20250508215816.png]]
-![[Pasted image 20250508215837.png]]
+### Ontario Energy Facts![](../Images/20250508215758.png)
+![](../Images/20250508215816.png)
+![](../Images/20250508215837.png)
 
-### OPG ![[Pasted image 20250508215909.png]]
+### OPG ![](../Images/20250508215909.png)
 
 ### Hydro One
-![[Pasted image 20250508215931.png]]
+![](../Images/20250508215931.png)
 
-### IESO ![[Pasted image 20250508215955.png]]
+### IESO ![](../Images/20250508215955.png)
 
-### Why Coal is being replaced by GAS ![[Pasted image 20250508220058.png]]
+### Why Coal is being replaced by GAS ![](../Images/20250508220058.png)
 
-### Wind & Solar![[Pasted image 20250508220146.png]]
-![[Pasted image 20250508220208.png]]
+### Wind & Solar![](../Images/20250508220146.png)
+![](../Images/20250508220208.png)
 - Homeowners are incentivized by saving costs on electricity and potentially earning by producing electricity at homes and selling it back to the grid.
 
-### Smart Meters ![[Pasted image 20250508220413.png]]
+### Smart Meters ![](../Images/20250508220413.png)
 - Ontario has made some of the best progress in implementing smart meters, which allows the provision of variable pricing because costs can be adjusted based on the result of metering.
 
 

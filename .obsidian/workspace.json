@@ -39,10 +39,14 @@
             "id": "5b43ff63c6f5d35c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 1 - Power Systems.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lec 1 - Power Systems"
             }
           }
         ],
@@ -193,11 +197,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9b59ea69526b45d",
+  "active": "5b43ff63c6f5d35c",
   "lastOpenFiles": [
+    "special_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
+    "special_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
+    "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
     "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 2 - North American Power System.md",
     "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 1 - Smart Grid.md",
     "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 1 - Power Systems.md",
+    "special_topics_smart_grid/Images/WhatsApp Image 2025-05-11 at 17.46.09_593b9f8b.jpg",
+    "special_topics_smart_grid/Images/WhatsApp Image 2025-05-11 at 17.46.09_29f09693.jpg",
+    "special_topics_smart_grid/Images/Pasted image 20250511164530.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192934.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192919.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192903.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192833.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192800.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192659.png",
+    "special_topics_smart_grid/Images/Pasted image 20250510192623.png",
+    "special_topics_smart_grid/Images",
     "special_topics_smart_grid/Study-Notes-GitHub-Compatible",
     "speical_topics_smart_grid/Lectures/Lecture 2 - In Class Notes.md",
     "speical_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
@@ -207,16 +225,6 @@
     "speical_topics_smart_grid/Lectures/Lecture 1 - In Class Notes.md",
     "speical_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
     "speical_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
-    "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192611.png",
-    "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192552.png",
-    "speical_topics_smart_grid/Z ALL Images/Pasted image 20250510192533.png",
-    "Pasted image 20250506222956.png",
-    "Pasted image 20250506222755.png",
-    "Pasted image 20250506222744.png",
-    "Pasted image 20250506222704.png",
-    "Pasted image 20250506221429.png",
-    "Pasted image 20250506221236.png",
-    "Pasted image 20250506215139.png",
     "speical_topics_smart_grid/All Lectures/Power Systems - Introduction.pdf",
     "speical_topics_smart_grid/All Lectures/Smart Grid_Intro.pdf",
     "speical_topics_smart_grid/All Lectures",
