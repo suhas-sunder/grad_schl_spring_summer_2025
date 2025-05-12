@@ -113,7 +113,7 @@
 - **Accounting for Losses**: Power losses in transmission lines, transformers, and other components also need to be accounted for. The system should generate slightly more power than the demand to make up for these losses, ensuring that the actual power delivered to the load matches the required power.
 
 
-- **Wicket Gates** are used in **hydroelectric power plants** (and sometimes other types of power plants) to control the flow of water (in the case of hydropower) or steam (in the case of thermal power plants) to the turbines. ![](../Images/Pasted image 20250506215139.png)
+- **Wicket Gates** are used in **hydroelectric power plants** (and sometimes other types of power plants) to control the flow of water (in the case of hydropower) or steam (in the case of thermal power plants) to the turbines. ![](../Images/20250506215139.png)
 	- **Adjusting Power Generation**: The **wicket gate mechanism** helps regulate the amount of fluid (water or steam) flowing to the turbine, which directly affects the amount of power the turbine produces.    
 	    - When more power is needed, the wicket gates open wider to allow more fluid through, increasing the speed of the turbine and hence the power output.        
 	    - When less power is needed, the wicket gates close, reducing the flow and turbine speed, thus reducing power generation.        
@@ -146,12 +146,12 @@
     - If frequency rises, it closes the gates slightly to reduce output.        
     - So: **Governors = active power control = frequency regulation**.
 
-- The **generator field winding or rotor winding** is the **electrically conductive coil** wound on the **rotor** (the rotating part) of a generator or synchronous machine.![](../Images/Pasted image 20250506221429.png)
+- The **generator field winding or rotor winding** is the **electrically conductive coil** wound on the **rotor** (the rotating part) of a generator or synchronous machine.![](../Images/20250506221429.png)
 	- Think of the rotor winding as the **magnet-maker**.    
 	- It turns the rotor into an **electromagnet**.    
 	- Spinning this electromagnet inside coils (the stator) is how we make electricity.
 
-- **Excitation System**: Supplies DC current to the **rotor winding** of the generator.    ![](../Images/Pasted image 20250506221236.png)
+- **Excitation System**: Supplies DC current to the **rotor winding** of the generator.    ![](../Images/20250506221236.png)
 	- The **rotor winding** needs a **DC current** to produce a magnetic field.	    
 	- This magnetic field is what **induces AC voltage** in the stator when the rotor spins.	    
 	- Without excitation, **no voltage** is generated — the machine can't produce power.
@@ -162,7 +162,7 @@
 		- More excitation → more reactive power → **voltage support** to the grid.    
 		- Less excitation → generator may **absorb** reactive power → **reduces voltage**.
 
-- **Automatic Voltage Regulator (AVR)**:    ![](../Images/Pasted image 20250506222704.png)
+- **Automatic Voltage Regulator (AVR)**:    ![](../Images/20250506222704.png)
     - Adjusts the **excitation** based on voltage feedback.        
     - More excitation → higher rotor magnetic field → higher voltage → **more reactive power** output.        
     - Less excitation → lower voltage → less reactive power.        
@@ -171,18 +171,18 @@
 	    - Prevents voltage collapse.        
 	    - Supports **dynamic stability** during faults or load changes.
 
-- **Isolated Generators** are ones that are not connected to the grid: ![](../Images/Pasted image 20250506222744.png)
+- **Isolated Generators** are ones that are not connected to the grid: ![](../Images/20250506222744.png)
 	- **Governor**: Controls **speed** → which directly sets the **frequency**.    
 	- **AVR**: Controls **voltage** via rotor excitation → manages **reactive power**.
 
-- **Grid connect generators** are ones that are connected to the grid:![](../Images/Pasted image 20250506222755.png)
+- **Grid connect generators** are ones that are connected to the grid:![](../Images/20250506222755.png)
 	- Frequency and voltage are set by the **larger power system**.    
 	- Your generator now behaves like a **slave** to the grid — it must **match** the grid’s frequency and voltage, not set them.    
 	- Instead of controlling speed or voltage, the generator now:    
 	    - Adjusts **active power** output (by varying mechanical input).        
 	    - Adjusts **reactive power** (via excitation system, still controlled by AVR).        
 
-- **Limits of generators:    ![](../Images/Pasted image 20250506222956.png)
+- **Limits of generators:    ![](../Images/20250506222956.png)
     - Generators can only provide so much active/reactive power before hitting thermal or stability limits.        
     - Exceeding these → generator trips → **blackout risk increases**.        
     - Protective relays and limiters are in place to prevent damage and maintain system reliability.
@@ -221,4 +221,4 @@
 			- Generation: more
 
 ### Generator vs AVR
-![](../Images/WhatsApp Image 2025-05-11 at 17.46.09_29f09693.jpg]] ![](../Images/WhatsApp Image 2025-05-11 at 17.46.09_593b9f8b.jpg]]
+![](../Images/29f09693.jpg) ![](../Images/593b9f8b.jpg)
