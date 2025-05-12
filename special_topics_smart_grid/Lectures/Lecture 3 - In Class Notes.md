@@ -1,0 +1,35 @@
+### Algorithms
+- One of the major tasks for smart grid is to estimate phasors at diff points in the power systems for voltage and current.
+- later on we need to estimate frequency also.
+- We will sample voltage and current at regular intervals. This is what most relays do. Usually around 9600 Hz. For a 60hz waveform if you have 4800 hz, you have 80 samples per cycle. We will take all of those 80 samples and based on that make our decision. That will be the design of the algorithm.
+- If there is nothing wrong in the system, it is pure 60 Hz. We will get samples at regular intervals. It could be 4800 Hz. It could be 720 Hz. It depends on the requirements.
+	- Our goal is to use these samples to compute the phasor.
+	- We will use a "window" or number of consecutive samples to conduct a measurement.
+	- Every time a new sample comes in, the window shifts forward dropping the old sample at one end and accounting for the new sample at the other end.
+- We will be starting with Trig algorithms.
+	- Will be computing the real and imaginary parts of the phasor. 
+	- **Phasor is only a single frequency. It cannot have multiple frequencies.**
+	- We will start with 60Hz phasor but the algorithm can be adapted to any frequency.
+	- Seem very simple and are not very good compared to other algorithms, but they do have value and are used in certain situations.
+- Next will be Correlation Algorithms.
+- Recursive Algorithms.
+- modelling Algorithms.
+- Make precise measurements quickly.
+	- You can't do both things. You can either be precise and slow, or quick and less precise. So we need to make a compromise between precision and speed.
+- Generally system frequency components are the required information. Everything else is interference that needs to be removed. 
+	- We are only interested in one single frequency. Everything else is interference. 
+	- There are exceptions (2nd harmonics, 3rd harmonics).
+- Signals are corrupted by DC offsets, decaying DC components, CCVT transients, travelling-wave reflections, and other interferences.
+	- It is a challenge to remove these interferences so the data will never be very quick and precise.
+	- The data is very limited.
+- Samples
+	- The numerical representation of the analog input and at any instant. 
+	- They come in one at a time.
+- Window
+	- A window is a collection of consecutive samples.
+	- As the new data comes in, the oldest data (sample) in the window is discarded.
+- Non-recursive Algorithms
+	- Trig, Correlation, and Least error algorithms
+	- It means there is no previous information being used. Only the samples accounted for within the window.
+	- Recursive algorithms aren't really used in the industry anymore. More for academic purposes.
+- 
