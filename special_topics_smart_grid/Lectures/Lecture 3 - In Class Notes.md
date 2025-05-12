@@ -32,4 +32,56 @@
 	- Trig, Correlation, and Least error algorithms
 	- It means there is no previous information being used. Only the samples accounted for within the window.
 	- Recursive algorithms aren't really used in the industry anymore. More for academic purposes.
-- 
+- Trigonometric Algorithms
+	- Features
+		- Short window size (< half a cycle of 60Hz). This will depend on the sampling rate. Eg. with 720 Hz we would only have 6 samples, but with 4800 it would be 40 samples.
+			- 720 Hz at 60 Hz freq = 720/60 = 12 then take 1/2 = 6 samples
+			- 4800 at 60 Hz freq = 4800/60 = 80 then take 1/2 = 40 samples
+		- Fast transient response
+			- That means they react to changes very quickly.
+			- If there is suddenly a change in the magnitued for exxample, these  algroithms will respond to those changes very quickly.
+			- They require very few calulations. The amount of calculations are very important
+		- Have a bad response for inputs with frequenceis other than the fundamental frequency.
+			- The preciseness goes down if frequencies come in that don't match the fundamental frequency.
+	- Algorithms
+		- Mickey... (look at notes)
+	- Assumptions
+		- The waveform of the signal is sinusoidal for the nominal frequency. A pure sine wave and nothing else.
+		- The frequency of the signal is invariant. Meaning, the frequency does not change over time. 
+			- Except when the generator is started up, it is brought up to 60Hz after and then synchronized. This doesn't matter as long as the freq doesn't change.
+	- Basics
+		- Let a voltage be 
+			- v = Vp sin(wt + theta)
+				- omega = frequency (known to us 60Hz or w/e)
+				- Vp = Magnitude of the phasor that we calculate
+				- Theta = Angle
+			- The first and second derivatives of this voltage
+			-  Taking the squares of v (only using 1st derivative) look at notes
+			- Taking the squares of v (using 1st derivative and 2nd) look at notes
+		- Miki and Mikano Algorithm
+			- The window size is only two samples.
+			- Assume within that window where time is 0. In the diagram the prof assumes the latest time is 0. If it was the other way around, the result would change, but it is still valid.
+			- Algorithm
+				- At time t = 0
+				- what is Vp sin(theta)
+				- Very good for pure 60Hz, however it's not a great algorithm overall. It does not perform well outside of 60Hz.
+				- Each phasor comes shifted at whatever angle the window shifts at. So if it is sampling at 30 deg then each time we sample the angle shifts 30 deg.
+				- Digital filters are in digital form that extract a certain frequency component out of the signal. Used extensively in engineering field and also other fields like finance.
+				- We designed two digital filters to extract the real and imaginary parts of the digital signal.
+				- Coefficients are the one that determine how the digital filter will respond. V0 and V-1.
+			- Frequency response of the filters
+				- Assumptions
+					- Nominal Frequency = 60Hz
+					- look at slides
+				- Brush up on Z transforms
+				- Magnitude is more important for us right now compared to phase response to see how the filter behaves.
+				- This filter isn't great based on the magnitude because the signal will be amplified once we go past 60Hz. So it is very good if you have a pure sin wave. Most of the time the waveforms are pure, so there won't be an issue most of the time. However, it won't work well when there is a disturbance.
+				- The graph that shows everything with a magnitude 1 and phase response of 0 means it will pass any value without filtering it. 
+				- IED (integrated electronic devices or something) devices show a phasor rotating on the screen. You can see the phasors rotating at any time.
+			- Advantags
+				- Very fast transient response time
+				- Very few calculations are required
+			- Disadvantages
+				- Noise affects performance
+				- Performance of harmonics has adverse  effects
+				- Decaying DC affects performance
