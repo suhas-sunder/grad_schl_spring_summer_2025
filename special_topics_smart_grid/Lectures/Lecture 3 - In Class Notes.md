@@ -41,7 +41,7 @@
 			- That means they react to changes very quickly.
 			- If there is suddenly a change in the magnitued for exxample, these  algroithms will respond to those changes very quickly.
 			- They require very few calulations. The amount of calculations are very important
-		- Have a bad response for inputs with frequenceis other than the fundamental frequency.
+		- Have a bad response for inputs with frequencies other than the fundamental frequency.
 			- The preciseness goes down if frequencies come in that don't match the fundamental frequency.
 	- Algorithms
 		- Mickey... (look at notes)
@@ -85,3 +85,26 @@
 				- Noise affects performance
 				- Performance of harmonics has adverse  effects
 				- Decaying DC affects performance
+		- Mann and Morrison Algorithm
+			- Uses 3 samples within the window.
+			- Prof chose middle of time reference to be 0. So -1, 0, +1.
+			- Can eliminate Pure DC unlike prior algorithm.
+			- Cannot eliminate other DC components.
+			- The only difference with this algorithm is the way we calculate the real part. As a result we eliminate PURE DC.
+			- Disadvantages are the same. Therefore this algorithm is similarly only good for pure sinusoidal harmonics.
+
+		- Rockerfeller and Udren Algorithm
+			- Eliminates both DC and lower frequencies. However, the larger frequencies are amplified significantly. Therefore, if we have a second harmonic or higher, it could cause issues.
+			- The more you differentiate the signal, the more you amplify the noise.
+				- When you differentiate you end up dividing with omega detla T which becomes a tiny value. Since its divided by a small value, the value gets amplified, including the noise.
+			- Since this eliminates DC we can see the magnitude plot response is much better compared to the prior two algorithms. However, second, third harmonic is extremely bad.
+				- Handles decaying DC better.
+			- Transient response is pretty good since it's only 3 samples. Within 3 samples it settles down.
+			- Works well with decaying DC and pure sine wave. Problem occurs when you have any additional harmonics/higher frequencies. In order to take care of this, we can use Analog Input Subsystems to perform analog filtering. We eliminate anything higher than half the sampling rate. So if we have 720 Hz, we theoretically eliminate everything above 360 Hz. Would have to design the filters to that it also filter out the harmonics to make this algorithm work better.
+			- This algorithm is still used where we don't need precise measurements. If we just need to know that there was an increase or change in magnitude without knowing the exact value, this algorithm works well because it performs this calculation extremely quickly.
+
+- Prof said we should have these algorithms coded in MATLAB and ready for use in assignments. It must be able to work at different frequencies, not just one. 
+	- Should program the frequency response also.
+- Should also learn how to do these calculations with a different frame of reference for t=0. 
+- Also he said we can try using the same equations for higher sample windows.
+	- Would be better because more info is being used. More samples.
