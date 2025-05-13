@@ -8,16 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "332b2290a3abe0c6",
+            "id": "88ba136c788a350f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md",
+=======
+                "file": "special_topics_smart_grid/Quizzes.md",
+>>>>>>> 1bd51a0931fce2b032a3267594167c60dc462fed
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Lecture 3 - TrigAlg"
             }
           },
@@ -29,6 +34,9 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
+=======
+              "title": "Quizzes"
+>>>>>>> 1bd51a0931fce2b032a3267594167c60dc462fed
             }
           }
         ]
@@ -178,8 +186,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "332b2290a3abe0c6",
+  "active": "88ba136c788a350f",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "special_topics_smart_grid/Images/20250513182606.png",
     "special_topics_smart_grid/Images/20250513183011.png",
     "special_topics_smart_grid/Images/20250513182745.png",
@@ -193,6 +202,27 @@
     "Pasted image 20250513183948.png",
     "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
     "special_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
+=======
+    "special_topics_smart_grid/Images/20250513161443.png",
+    "special_topics_smart_grid/Quizzes.md",
+    "special_topics_smart_grid/Images/20250513161617.png",
+    "special_topics_smart_grid/Images/20250513161559.png",
+    "special_topics_smart_grid/Images/20250513161546.png",
+    "special_topics_smart_grid/Images/20250513161544.png",
+    "special_topics_smart_grid/Images/20250513161529.png",
+    "special_topics_smart_grid/Images/20250513161515.png",
+    "special_topics_smart_grid/Images/20250513161459.png",
+    "special_topics_smart_grid/Images/20250513161353.png",
+    "special_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
+    "special_topics_smart_grid/Quizzes/Untitled.md",
+    "special_topics_smart_grid/Quizzes",
+    "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
+    "special_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
+    "special_topics_smart_grid/Images/593b9f8b.jpg",
+    "special_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
+    "special_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
+    "special_topics_smart_grid/Images/renameImages.js",
+>>>>>>> 1bd51a0931fce2b032a3267594167c60dc462fed
     "special_topics_smart_grid/Study Notes/Lec 2 - North American Power System.md",
     "special_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
     "special_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
