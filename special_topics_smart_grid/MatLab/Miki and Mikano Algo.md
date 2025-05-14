@@ -46,3 +46,40 @@ ylabel('Phase (degrees)');
 grid on;
 
 ```
+
+```
+% Parameters
+fs = 1000;                        % Sampling frequency
+T = 1/fs;
+f = linspace(1, fs/2, 1000);      % Frequency sweep from 1 Hz to Nyquist
+omega = 2*pi*f;
+
+% Allocate response
+H = zeros(size(f));
+
+% Compute magnitude and phase at each frequency
+for k = 1:length(omega)
+    w = omega(k);
+    num = [cos(w*T), -1];
+    den = sin(w*T);
+    H(k) = (num(1)*exp(-1j*0*w*T) + num(2)*exp(-1j*1*w*T)) / den; % DTFT
+end
+
+% Plot
+figure;
+
+subplot(2,1,1);
+plot(f, abs(H), 'g', 'LineWidth', 2);
+title('Magnitude Response of Real-Part Filter');
+xlabel('Frequency (Hz)');
+ylabel('Magnitude');
+grid on;
+
+subplot(2,1,2);
+plot(f, angle(H)*180/pi, 'r', 'LineWidth', 2);
+title('Phase Response of Real-Part Filter');
+xlabel('Frequency (Hz)');
+ylabel('Phase (degrees)');
+grid on;
+
+```
