@@ -83,3 +83,29 @@ ylabel('Phase (degrees)');
 grid on;
 
 ```
+
+``` 
+fs = 720;                         % Sampling frequency
+b = [1.732, -2];                  % Filter coefficients from lecture
+a = 1;                            % FIR filter => no denominator
+
+[H, f] = freqz(b, a, 1024, fs);   % Compute frequency response
+
+% Plot
+figure;
+
+subplot(2,1,1);
+plot(f, abs(H), 'g', 'LineWidth', 2);
+title('Magnitude Response (Real-Part Filter)');
+xlabel('Frequency (Hz)');
+ylabel('Magnitude');
+grid on;
+
+subplot(2,1,2);
+plot(f, angle(H)*180/pi, 'r', 'LineWidth', 2);
+title('Phase Response (Real-Part Filter)');
+xlabel('Frequency (Hz)');
+ylabel('Phase (degrees)');
+grid on;
+
+```

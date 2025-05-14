@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "b2f197893c28a25b",
+    "id": "bc4d7583571c79ea",
     "type": "split",
     "children": [
       {
-        "id": "dc3aa7c75b769ea6",
+        "id": "d46370e2a6c1047a",
         "type": "tabs",
         "children": [
           {
-            "id": "cff5aaa75671778d",
+            "id": "8661b26b5a10d194",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e0551b82b380de66",
+    "id": "8ff078307c5131ee",
     "type": "split",
     "children": [
       {
-        "id": "ecbcbb66db6bae7a",
+        "id": "43dd7c3943bde253",
         "type": "tabs",
         "children": [
           {
-            "id": "469c323ff9c54ff9",
+            "id": "8fd748a4d372b509",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "17b3f0b226f37fd4",
+            "id": "f8b1d5a6aa50b120",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "b93155f2be0dd13c",
+            "id": "7fc4d156ec956d91",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "ae338dd8690b5894",
+    "id": "1b1377b7c632617c",
     "type": "split",
     "children": [
       {
-        "id": "b4d05b66853b7189",
+        "id": "77e5d75849fc8383",
         "type": "tabs",
         "children": [
           {
-            "id": "a57c8eebe3fcc95b",
+            "id": "c89ad0dc61688b69",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -108,7 +108,7 @@
             }
           },
           {
-            "id": "3ac8a90bb7ae6a66",
+            "id": "d27ef9ef40d88ced",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -122,7 +122,7 @@
             }
           },
           {
-            "id": "96714f5095251a9e",
+            "id": "25e9895833f23609",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "5653a60992c2b923",
+            "id": "6a5c915e0451102b",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -168,14 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cff5aaa75671778d",
+  "active": "8661b26b5a10d194",
   "lastOpenFiles": [
-    "special_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
+    "special_topics_smart_grid/Images/20250513202017.png",
+    "Pasted image 20250513202017.png",
     "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
-    "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md",
-    "special_topics_smart_grid/MatLab",
-    "special_topics_smart_grid/All Lectures/TrigAlg.pdf",
-    "special_topics_smart_grid/All Lectures/Algorithms.pdf",
-    "special_topics_smart_grid/Images/20250513202017.png"
+    "special_topics_smart_grid/MatLab"
   ]
 }
