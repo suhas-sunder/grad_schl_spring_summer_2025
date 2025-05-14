@@ -75,91 +75,9 @@ xticks(0:60:720) % <- this sets tick labels every 60 Hz
 ylim([-180 180]); % Sets y-axis range from 0 to 100 degrees
 ```
 
-### Going back to pure sine wave (first lecture example). Modeled by directly plugging in magnitude and phase eqn from lecture notes instead of using FIR filter. I also added a phase shift of pi/12 to get thee sin wave starting/ending at the same spot as lecture example.
+### Going back to pure sine wave (first lecture example). Modeled by directly plugging in magnitude and phase eqn from lecture notes instead of using FIR filter. I also added a phase shift of pi/12 to get the sin wave starting/ending at the same spot as lecture example.
 
 ![](../../Images/20250514144822.png)
-![](../../Images/20250514084226.png)
-![](../../Images/20250514144451.png)
-
-One issue is that the magnitude doesn't start from 0 to 10 with this code. Also, the phase angle is double in scale x and y compared to what the prof gets. The prof said his plot should be 180 instead of 100 as shown in lecture which is an error. So is what we're getting here correct and his wrong? No clue.
-
-```
-% Parameters
-
-fs = 720; % Sampling frequency (Hz)
-
-T = 1 / fs; % Sampling period (s)
-
-t = 0:T:0.1; % Time vector (0.1 seconds)
-
-f0 = 60; % Signal frequency (Hz)
-
-Vm = 10; % Amplitude
-
-omega = 2 * pi * f0; % Angular frequency
-
-% Generate 60 Hz sine wave input
-
-x = Vm * sin(omega * t); % Input waveform
-
-% Allocate for angle result (length one less due to two-sample method)
-
-angle_deg = zeros(1, length(t)-1);
-
-% Apply the tan inverse angle estimator
-
-for n = 2:length(t)
-
-V0 = x(n); % Current sample
-
-V1 = x(n-1); % Previous sample
-
-num = V0; % Numerator of tan⁻¹
-
-den = (V0 * cos(omega*T) - V1) / sin(omega*T); % Denominator
-
-angle_deg(n-1) = atan2(num, den) * 180/pi;
-
-end
-
-% Pad to match time vector length
-
-angle_deg = [angle_deg(1), angle_deg];
-
-% Plot: Input and Phase Angle
-
-figure;
-
-subplot(2,1,1);
-
-plot(t, mag, 'k', 'LineWidth', 1);
-
-title('Phasor Magnitude (FIR-based)');
-
-xlabel('Time (s)');
-
-ylabel('Magnitude');
-
-ylim([0 15]);
-
-grid on;
-
-subplot(2,1,2);
-
-plot(t, angle_deg, 'm', 'LineWidth', 1);
-
-title('Phasor Phase Angle (tan^{-1} based)');
-
-xlabel('Time (s)');
-
-ylabel('Angle (degrees)');
-
-ylim([-180 180]);
-
-grid on;
-```
-
-### Got a better estimate of above with the code below.
 
 ![](../../Images/20250514084226.png)
 
