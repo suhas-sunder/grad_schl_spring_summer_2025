@@ -67,7 +67,7 @@ grid on;
 
 xticks(0:60:720) % <- this sets tick labels every 60 Hz
 
-ylim([-100 100]); % Sets y-axis range from 0 to 100 degrees
+ylim([-180 180]); % Sets y-axis range from 0 to 100 degrees
 ```
 
 ### Expected Plot From Lecture (Pure Sine)
@@ -117,11 +117,6 @@ angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
 
 % It's a crude approximation, and applying it directly causes a distortion in phase. '
 
-% Usually resulting in a doubling or scaling effect, just like what you saw.
-
-angle_deg = angle_deg/2; % Divide the resulting phase by 2 to approximately correct the doubling:
-
-% Plot 1: Magnitude and Phase over Time
 
 figure;
 
@@ -149,7 +144,7 @@ xlabel('Time (s)');
 
 ylabel('Angle (degrees)');
 
-ylim([-100 100]);
+ylim([-180 180]);
 
 grid on;
 ```
@@ -206,10 +201,6 @@ angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
 
 % It's a crude approximation, and applying it directly causes a distortion in phase. '
 
-% Usually resulting in a doubling or scaling effect, just like what you saw.
-
-angle_deg = angle_deg/2; % Divide the resulting phase by 2 to approximately correct the doubling:
-
 % Plot 1: Magnitude and Phase over Time
 
 figure;
@@ -238,7 +229,7 @@ xlabel('Time (s)');
 
 ylabel('Angle (degrees)');
 
-ylim([-100 100]);
+ylim([-180 180]);
 
 grid on;
 ```
@@ -294,16 +285,6 @@ mag = abs(phasor);
 
 angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
 
-% The FIR filter approximation (with b = [1.732, -2]) is not a perfect 90° phase shifter.
-
-% It's a crude approximation, and applying it directly causes a distortion in phase. '
-
-% Usually resulting in a doubling or scaling effect, just like what you saw.
-
-angle_deg = angle_deg/2; % Divide the resulting phase by 2 to approximately correct the doubling:
-
-% Plot 1: Magnitude and Phase over Time
-
 figure;
 
 subplot(2,1,1);
@@ -330,7 +311,8 @@ xlabel('Time (s)');
 
 ylabel('Angle (degrees)');
 
-ylim([-100 100]);
+ylim([-180 180]);
 
 grid on;
 ```
+
