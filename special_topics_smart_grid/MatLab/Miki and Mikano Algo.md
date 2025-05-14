@@ -89,9 +89,8 @@ fs = 720;                         % Sampling frequency
 b = [1.732, -2];                  % Filter coefficients from lecture
 a = 1;                            % FIR filter => no denominator
 
-[H, f] = freqz(b, a, 1024, fs);   % Compute frequency response
+[H, f] = freqz(b, a, 1024, fs);   % Frequency response
 
-% Plot
 figure;
 
 subplot(2,1,1);
@@ -108,4 +107,7 @@ xlabel('Frequency (Hz)');
 ylabel('Phase (degrees)');
 grid on;
 
+drawnow;   % Force MATLAB to render the plot
+
+disp('Plotting done');
 ```
