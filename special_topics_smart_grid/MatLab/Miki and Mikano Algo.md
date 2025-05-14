@@ -175,3 +175,40 @@ ylabel('Phase (degrees)');
 grid on;
 
 ```
+
+```
+% Parameters
+fs = 720;                       % Sampling frequency (Hz)
+T = 1/fs;                       % Sampling period
+f = linspace(0, fs, 1000);      % Frequency vector (1000 points)
+
+omega = 2*pi*f*T;               % Normalized angular frequency
+
+% Frequency response of real-part filter: H(ω) = 1.732 - 2e^{-jω}
+H = 1.732 - 2 .* exp(-1j * omega);
+
+% Unwrap phase in degrees
+phi = unwrap(angle(H)) * 180/pi;
+
+% Remove linear trend (to start & end at 0 degrees)
+p = polyfit(f, phi, 1);                  % Fit a straight line
+phi_corrected = phi - polyval(p, f);     % Subtract linear slope
+
+% Plot results
+figure;
+
+subplot(2,1,1);
+plot(f, abs(H), 'g', 'LineWidth', 2);
+title('Magnitude Response of Real-Part Filter');
+xlabel('Frequency (Hz)');
+ylabel('Magnitude');
+grid on;
+
+subplot(2,1,2);
+plot(f, phi_corrected, 'r', 'LineWidth', 2);
+title('Corrected Phase Response of Real-Part Filter');
+xlabel('Frequency (Hz)');
+ylabel('Phase (degrees)');
+grid on;
+
+```
