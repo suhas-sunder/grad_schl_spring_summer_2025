@@ -139,3 +139,34 @@ ylabel('Phase (degrees)');
 grid on;
 
 ```
+
+```
+fs = 720;                         % Sampling frequency
+T = 1/fs;
+f = linspace(0, fs, 1000);        % Sweep 0–720 Hz
+omega = 2*pi*f*T;
+
+% Frequency response of real-part filter
+H = 1.732 - 2 .* exp(-1j * omega);
+
+% Unwrapped phase (in degrees)
+phase_unwrapped = unwrap(angle(H)) * 180/pi;
+
+% Plot
+figure;
+
+subplot(2,1,1);
+plot(f, abs(H), 'g', 'LineWidth', 2);
+title('Magnitude Response (Real-Part Filter)');
+xlabel('Frequency (Hz)');
+ylabel('Magnitude');
+grid on;
+
+subplot(2,1,2);
+plot(f, phase_unwrapped, 'r', 'LineWidth', 2);
+title('Phase Response (Real-Part Filter)');
+xlabel('Frequency (Hz)');
+ylabel('Phase (degrees)');
+grid on;
+
+```
