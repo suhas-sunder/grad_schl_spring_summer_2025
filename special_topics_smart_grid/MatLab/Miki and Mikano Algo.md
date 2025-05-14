@@ -108,6 +108,6 @@ ylabel('Phase (degrees)');
 grid on;
 
 drawnow;   % Force MATLAB to render the plot
-
+ 
 disp('Plotting done');
 ```
