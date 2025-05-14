@@ -1,11 +1,11 @@
-![[Pasted image 20250513202017.png]]
+![](../Images/20250513202017.png)
 
 ### How to plot magnitude response and phase response on MATLAB
 
 ```
 % --- Example Signal Data ---
 fs = 1000;               % Sampling frequency in Hz
-f0 = 50;                 % Signal frequency in Hz
+f0 = 60;                 % Signal frequency in Hz
 T = 1/fs;                % Sampling period
 t = 0:T:0.1;             % Time vector
 v = sin(2*pi*f0*t);      % Example signal (replace with your real data)
