@@ -1,42 +1,24 @@
 {
   "main": {
-    "id": "4c1aab8301b1fb7a",
+    "id": "bc4d7583571c79ea",
     "type": "split",
     "children": [
       {
-        "id": "948fb75eadefc74b",
+        "id": "d46370e2a6c1047a",
         "type": "tabs",
         "children": [
           {
-            "id": "88ba136c788a350f",
+            "id": "8661b26b5a10d194",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md",
-=======
-                "file": "special_topics_smart_grid/Quizzes.md",
->>>>>>> 1bd51a0931fce2b032a3267594167c60dc462fed
+                "file": "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Lecture 3 - TrigAlg"
-            }
-          },
-          {
-            "id": "88ba136c788a350f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-=======
-              "title": "Quizzes"
->>>>>>> 1bd51a0931fce2b032a3267594167c60dc462fed
+              "title": "Miki and Mikano Algo"
             }
           }
         ]
@@ -45,28 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7f1b03688ca78fdf",
+    "id": "8ff078307c5131ee",
     "type": "split",
     "children": [
       {
-        "id": "feec21c9535a1d03",
+        "id": "43dd7c3943bde253",
         "type": "tabs",
         "children": [
           {
-            "id": "e9b59ea69526b45d",
+            "id": "8fd748a4d372b509",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "d750d370f69c06c2",
+            "id": "f8b1d5a6aa50b120",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +65,7 @@
             }
           },
           {
-            "id": "b31b9cd5b40e6adb",
+            "id": "7fc4d156ec956d91",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -99,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "ecc745f3fefa67f6",
+    "id": "1b1377b7c632617c",
     "type": "split",
     "children": [
       {
-        "id": "8aeb161f2faee525",
+        "id": "77e5d75849fc8383",
         "type": "tabs",
         "children": [
           {
-            "id": "7b2ae9e786137d4f",
+            "id": "c89ad0dc61688b69",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-04-18.md",
+                "file": "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-04-18"
+              "title": "Backlinks for Miki and Mikano Algo"
             }
           },
           {
-            "id": "57654518bdbe0f43",
+            "id": "d27ef9ef40d88ced",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-04-18.md",
+                "file": "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-04-18"
+              "title": "Outgoing links from Miki and Mikano Algo"
             }
           },
           {
-            "id": "8cfb136c0e0104c0",
+            "id": "25e9895833f23609",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,18 +137,18 @@
             }
           },
           {
-            "id": "b42060c19bd444b5",
+            "id": "6a5c915e0451102b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-04-18.md",
+                "file": "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-04-18"
+              "title": "Outline of Miki and Mikano Algo"
             }
           }
         ]
@@ -186,71 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88ba136c788a350f",
+  "active": "8661b26b5a10d194",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "special_topics_smart_grid/Images/20250513182606.png",
-    "special_topics_smart_grid/Images/20250513183011.png",
-    "special_topics_smart_grid/Images/20250513182745.png",
-    "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md",
-    "special_topics_smart_grid/Images/20250513182648.png",
-    "Pasted image 20250513182659.png",
-    "Pasted image 20250513183126.png",
-    "Pasted image 20250513184046.png",
-    "Pasted image 20250513184029.png",
-    "Pasted image 20250513184006.png",
-    "Pasted image 20250513183948.png",
-    "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
-    "special_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
-=======
-    "special_topics_smart_grid/Images/20250513161443.png",
-    "special_topics_smart_grid/Quizzes.md",
-    "special_topics_smart_grid/Images/20250513161617.png",
-    "special_topics_smart_grid/Images/20250513161559.png",
-    "special_topics_smart_grid/Images/20250513161546.png",
-    "special_topics_smart_grid/Images/20250513161544.png",
-    "special_topics_smart_grid/Images/20250513161529.png",
-    "special_topics_smart_grid/Images/20250513161515.png",
-    "special_topics_smart_grid/Images/20250513161459.png",
-    "special_topics_smart_grid/Images/20250513161353.png",
-    "special_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
-    "special_topics_smart_grid/Quizzes/Untitled.md",
-    "special_topics_smart_grid/Quizzes",
-    "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
-    "special_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
-    "special_topics_smart_grid/Images/593b9f8b.jpg",
-    "special_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
-    "special_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
-    "special_topics_smart_grid/Images/renameImages.js",
->>>>>>> 1bd51a0931fce2b032a3267594167c60dc462fed
-    "special_topics_smart_grid/Study Notes/Lec 2 - North American Power System.md",
-    "special_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
-    "special_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
-    "special_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
-    "special_topics_smart_grid/Images/renameImages.js",
-    "special_topics_smart_grid/Lectures/Lecture 1 - In Class Notes.md",
-    "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 1 - Power Systems.md",
-    "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 2 - North American Power System.md",
-    "special_topics_smart_grid/Study-Notes-GitHub-Compatible/Lec 1 - Smart Grid.md",
-    "special_topics_smart_grid/Images",
-    "special_topics_smart_grid/Study-Notes-GitHub-Compatible",
-    "speical_topics_smart_grid/Lectures/Lecture 2 - In Class Notes.md",
-    "speical_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
-    "speical_topics_smart_grid/Study Notes/Lec 1 - Power Systems.md",
-    "speical_topics_smart_grid/Study Notes/Lec 2 - North American Power System.md",
-    "speical_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
-    "speical_topics_smart_grid/Lectures/Lecture 1 - In Class Notes.md",
-    "speical_topics_smart_grid/Study Notes/Lec 1 - Smart Grid.md",
-    "speical_topics_smart_grid/Study Notes/Lec 2 - Phasors.md",
-    "speical_topics_smart_grid/All Lectures/Power Systems - Introduction.pdf",
-    "speical_topics_smart_grid/All Lectures/Smart Grid_Intro.pdf",
-    "speical_topics_smart_grid/All Lectures",
-    "speical_topics_smart_grid/Study Notes",
-    "pervasive_mobile_computing/Notes.md",
-    "speical_topics_smart_grid/Lectures",
-    "speical_topics_smart_grid/Notes.md",
-    "2025-04-18.md",
-    "Untitled.md",
-    "Welcome.md"
+    "Pasted image 20250513202017.png",
+    "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
+    "special_topics_smart_grid/MatLab"
   ]
 }
