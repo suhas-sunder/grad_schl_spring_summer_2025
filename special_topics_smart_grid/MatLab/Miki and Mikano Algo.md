@@ -72,10 +72,10 @@ ylim([-100 100]); % Sets y-axis range from 0 to 100 degrees
 
 ### Expected Plot From Lecture (Pure Sine)
 
-![[20250514084226.png]]
+![](../Images/20250514084226.png)
 
 ### Plot From Code
-![[20250514082600.png]]
+![](../Images/20250514082600.png)
 ```
 % Parameters
 
@@ -154,12 +154,12 @@ ylim([-100 100]);
 grid on;
 ```
 
-![[20250514082700.png]]
+![](../Images/20250514082700.png)
 
 ### Plot from Lecture (Decaying DC)
-![[20250514083153.png]]
+![](../Images/20250514083153.png)
 ### Plot From Code
-![[20250514083056.png]]
+![](../Images/20250514083056.png)
 
 ```
 % Parameters
@@ -244,8 +244,8 @@ grid on;
 ```
 
 #### Slightly different DC input signal for the same
-![[20250514083153.png]]
-![[20250514083911.png]]
+![](../Images/20250514083153.png)
+![](../Images/20250514083911.png)
 
 ```
 % Parameters
