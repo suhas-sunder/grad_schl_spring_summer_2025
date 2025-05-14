@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "special_topics_smart_grid/Images/20250514145422.png"
+                "file": "special_topics_smart_grid/Images/20250514170521.png"
               },
               "icon": "lucide-image",
-              "title": "20250514145422"
+              "title": "20250514170521"
             }
           },
           {
@@ -33,7 +33,8 @@
               "title": "Miki and Mikano Algo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,19 +183,21 @@
   },
   "active": "8fd748a4d372b509",
   "lastOpenFiles": [
+    "special_topics_smart_grid/Images/20250514173447.png",
     "special_topics_smart_grid/Images/20250514170521.png",
-    "special_topics_smart_grid/Images/20250514170508.png",
     "special_topics_smart_grid/Images/20250514170428.png",
     "special_topics_smart_grid/Images/20250514153843.png",
-    "special_topics_smart_grid/Images/20250514152420.png",
-    "special_topics_smart_grid/Images/20250514145915.png",
+    "special_topics_smart_grid/Images/20250514084226.png",
+    "special_topics_smart_grid/Images/20250514083153.png",
+    "special_topics_smart_grid/Images/20250514083056.png",
+    "special_topics_smart_grid/Images/20250514082700.png",
+    "special_topics_smart_grid/Images/20250514082600.png",
+    "special_topics_smart_grid/Images/20250513215336.png",
+    "special_topics_smart_grid/Images/20250513215312.png",
+    "special_topics_smart_grid/All Lectures/Fin_Ml/Miki and Mikano Algo.md",
     "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/All Lectures/Final_Matlab/Miki and Mikano Algo.md",
-    "Pasted image 20250514150437.png",
-    "special_topics_smart_grid/Images/20250514145422.png",
-    "special_topics_smart_grid/Images/20250514144451.png",
     "special_topics_smart_grid/All Lectures/Final_Matlab",
-    "special_topics_smart_grid/Images/20250514144822.png",
     "special_topics_smart_grid/Lectures/Lecture 4.md",
     "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
     "special_topics_smart_grid/Quizzes.md",

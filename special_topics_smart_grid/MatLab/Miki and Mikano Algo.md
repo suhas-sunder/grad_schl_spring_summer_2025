@@ -1,8 +1,10 @@
-![](../Images/20250513202017.png)
+![](../Images/20250514173447.png)
 ### Expected Plot From Lecture
 ![](../Images/20250513215336.png)
 ### Plot From Code
 ![](../Images/20250513215312.png)
+
+### Reminder to improve this code so that we're finding frequency response for both real and imaginary parts. This filter currently only accounts for the real part.
 
 ```
 fs = 720; % Sampling frequency
