@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d46370e2a6c1047a",
+        "id": "fffc269bfcddca24",
         "type": "tabs",
         "children": [
           {
-            "id": "8661b26b5a10d194",
+            "id": "9beb1375b0bbef5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,11 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8661b26b5a10d194",
+  "active": "9beb1375b0bbef5e",
   "lastOpenFiles": [
+    "special_topics_smart_grid/Images/20250513215336.png",
+    "special_topics_smart_grid/Images/20250513215312.png",
+    "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/Images/20250513202017.png",
     "Pasted image 20250513202017.png",
-    "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/MatLab"
   ]
 }
