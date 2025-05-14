@@ -1,6 +1,7 @@
 ![](../Images/20250513202017.png)
+### Expected Plot From Lecture
 ![](../Images/20250513215336.png)
-### How to plot magnitude response and phase response on MATLAB
+### Plot From Code
 ![](../Images/20250513215312.png)
 
 ```
@@ -67,4 +68,269 @@ grid on;
 xticks(0:60:720) % <- this sets tick labels every 60 Hz
 
 ylim([-100 100]); % Sets y-axis range from 0 to 100 degrees
+```
+
+### Expected Plot From Lecture (Pure Sine)
+
+![[20250514084226.png]]
+
+### Plot From Code
+![[20250514082600.png]]
+```
+% Parameters
+
+fs = 720; % Sampling frequency (Hz)
+
+T = 1 / fs; % Sampling period (s)
+
+t = 0:T:0.1; % Time vector (0.1 seconds)
+
+f0 = 60; % Signal frequency (Hz)
+
+Vm = 10; % Amplitude
+
+% Generate 60 Hz sine wave input
+
+x = Vm * sin(2*pi*f0*t);
+
+% FIR Filter coefficients (approximates 90° shift)
+
+b = [1.732, -2]; % FIR numerator coefficients (approx quadrature filter)
+
+a = 1; % Denominator (FIR filter)
+
+% Apply FIR filter to approximate Hilbert quadrature
+
+x_quad = filter(b, a, x); % Imaginary component
+
+% Construct complex phasor: real part = original, imag part = filtered
+
+phasor = x + 1j * x_quad;
+
+% Compute magnitude and phase angle
+
+mag = abs(phasor);
+
+angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
+
+% The FIR filter approximation (with b = [1.732, -2]) is not a perfect 90° phase shifter.
+
+% It's a crude approximation, and applying it directly causes a distortion in phase. '
+
+% Usually resulting in a doubling or scaling effect, just like what you saw.
+
+angle_deg = angle_deg/2; % Divide the resulting phase by 2 to approximately correct the doubling:
+
+% Plot 1: Magnitude and Phase over Time
+
+figure;
+
+subplot(2,1,1);
+
+plot(t, mag, 'k', 'LineWidth', 1);
+
+title('Phasor Magnitude (FIR-based)');
+
+xlabel('Time (s)');
+
+ylabel('Magnitude');
+
+ylim([0 15]);
+
+grid on;
+
+subplot(2,1,2);
+
+plot(t, angle_deg, 'm', 'LineWidth', 1);
+
+title('Phasor Phase Angle (FIR-based)');
+
+xlabel('Time (s)');
+
+ylabel('Angle (degrees)');
+
+ylim([-100 100]);
+
+grid on;
+```
+
+![[20250514082700.png]]
+
+### Plot from Lecture (Decaying DC)
+![[20250514083153.png]]
+### Plot From Code
+![[20250514083056.png]]
+
+```
+% Parameters
+
+fs = 720; % Sampling frequency (Hz)
+
+T = 1 / fs; % Sampling period (s)
+
+t = 0:T:0.1; % Time vector (0.1 seconds)
+
+f0 = 60; % Signal frequency (Hz)
+
+Vm = 10; % Sine amplitude
+
+A = 5; % Initial DC offset
+
+tau = 0.02; % Time constant of decay (s)
+
+% Generate 60 Hz sine wave input with decaying DC component
+
+x = Vm * sin(2*pi*f0*t) + A * exp(-t / tau);
+
+% FIR Filter coefficients (approximates 90° shift)
+
+b = [1.732, -2]; % FIR numerator coefficients (approx quadrature filter)
+
+a = 1; % Denominator (FIR filter)
+
+% Apply FIR filter to approximate Hilbert quadrature
+
+x_quad = filter(b, a, x); % Imaginary component
+
+% Construct complex phasor: real part = original, imag part = filtered
+
+phasor = x + 1j * x_quad;
+
+% Compute magnitude and phase angle
+
+mag = abs(phasor);
+
+angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
+
+% The FIR filter approximation (with b = [1.732, -2]) is not a perfect 90° phase shifter.
+
+% It's a crude approximation, and applying it directly causes a distortion in phase. '
+
+% Usually resulting in a doubling or scaling effect, just like what you saw.
+
+angle_deg = angle_deg/2; % Divide the resulting phase by 2 to approximately correct the doubling:
+
+% Plot 1: Magnitude and Phase over Time
+
+figure;
+
+subplot(2,1,1);
+
+plot(t, mag, 'k', 'LineWidth', 1);
+
+title('Phasor Magnitude (FIR-based)');
+
+xlabel('Time (s)');
+
+ylabel('Magnitude');
+
+ylim([0 15]);
+
+grid on;
+
+subplot(2,1,2);
+
+plot(t, angle_deg, 'm', 'LineWidth', 1);
+
+title('Phasor Phase Angle (FIR-based)');
+
+xlabel('Time (s)');
+
+ylabel('Angle (degrees)');
+
+ylim([-100 100]);
+
+grid on;
+```
+
+#### Slightly different DC input signal for the same
+![[20250514083153.png]]
+![[20250514083911.png]]
+
+```
+% Parameters
+
+fs = 720; % Sampling frequency (Hz)
+
+T = 1 / fs; % Sampling period (s)
+
+t = 0:T:0.1; % Time vector (0.1 seconds)
+
+f0 = 60; % Signal frequency (Hz)
+
+Vm = 10; % Sine amplitude
+
+A = 10; % Peak DC influence
+
+tau1 = 0.005; % Rise time
+
+tau2 = 0.02; % Fall time
+
+% Generate shaped DC envelope (starts at 0, bumps up, then decays)
+
+dc_shape = A * (1 - exp(-t / tau1)) .* exp(-t / tau2);
+
+% Combined signal: sine + shaped DC
+
+x = Vm * sin(2*pi*f0*t) + dc_shape;
+
+% FIR Filter coefficients (approximates 90° shift)
+
+b = [1.732, -2]; % FIR numerator coefficients (approx quadrature filter)
+
+a = 1; % Denominator (FIR filter)
+
+% Apply FIR filter to approximate Hilbert quadrature
+
+x_quad = filter(b, a, x); % Imaginary component
+
+% Construct complex phasor: real part = original, imag part = filtered
+
+phasor = x + 1j * x_quad;
+
+% Compute magnitude and phase angle
+
+mag = abs(phasor);
+
+angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
+
+% The FIR filter approximation (with b = [1.732, -2]) is not a perfect 90° phase shifter.
+
+% It's a crude approximation, and applying it directly causes a distortion in phase. '
+
+% Usually resulting in a doubling or scaling effect, just like what you saw.
+
+angle_deg = angle_deg/2; % Divide the resulting phase by 2 to approximately correct the doubling:
+
+% Plot 1: Magnitude and Phase over Time
+
+figure;
+
+subplot(2,1,1);
+
+plot(t, mag, 'k', 'LineWidth', 1);
+
+title('Phasor Magnitude (FIR-based)');
+
+xlabel('Time (s)');
+
+ylabel('Magnitude');
+
+ylim([0 15]);
+
+grid on;
+
+subplot(2,1,2);
+
+plot(t, angle_deg, 'm', 'LineWidth', 1);
+
+title('Phasor Phase Angle (FIR-based)');
+
+xlabel('Time (s)');
+
+ylabel('Angle (degrees)');
+
+ylim([-100 100]);
+
+grid on;
 ```
