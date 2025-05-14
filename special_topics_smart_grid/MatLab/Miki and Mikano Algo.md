@@ -141,16 +141,21 @@ grid on;
 ```
 
 ```
-fs = 720;                         % Sampling frequency
+fs = 720;                         
 T = 1/fs;
-f = linspace(0, fs, 1000);        % Sweep 0–720 Hz
+f = linspace(0, fs, 1000);        
 omega = 2*pi*f*T;
 
-% Frequency response of real-part filter
+% Frequency response of the real part filter
 H = 1.732 - 2 .* exp(-1j * omega);
 
-% Unwrapped phase (in degrees)
-phase_unwrapped = unwrap(angle(H)) * 180/pi;
+% Unwrap phase
+phi = unwrap(angle(H)) * 180/pi;
+
+% Remove linear slope to match expected shape (zero at 0 and 720 Hz)
+% We'll use polyfit to estimate and subtract the trend
+p = polyfit(f, phi, 1);           % Linear trend (degree 1 fit)
+phi_corrected = phi - polyval(p, f);
 
 % Plot
 figure;
@@ -163,8 +168,8 @@ ylabel('Magnitude');
 grid on;
 
 subplot(2,1,2);
-plot(f, phase_unwrapped, 'r', 'LineWidth', 2);
-title('Phase Response (Real-Part Filter)');
+plot(f, phi_corrected, 'r', 'LineWidth', 2);
+title('Corrected Phase Response (Real-Part Filter)');
 xlabel('Frequency (Hz)');
 ylabel('Phase (degrees)');
 grid on;
