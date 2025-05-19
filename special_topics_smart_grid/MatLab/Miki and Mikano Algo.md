@@ -111,12 +111,21 @@ phasor = x + 1j * x_quad;
 
 mag = abs(phasor);
 
-angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
+phi = angle(phasor) * 180/pi; %the phase angle appears doubled.
 
 % The FIR filter approximation (with b = [1.732, -2]) is not a perfect 90° phase shifter.
 
 % It's a crude approximation, and applying it directly causes a distortion in phase. '
 
+% ✅ Correct phase so it starts and ends at 0 degrees
+
+phi_start = phi(1);
+
+phi_end = phi(end);
+
+phi_baseline = linspace(phi_start, phi_end, length(phi));
+
+phi_corrected = phi_baseline - phi;
 
 figure;
 
@@ -136,7 +145,7 @@ grid on;
 
 subplot(2,1,2);
 
-plot(t, angle_deg, 'm', 'LineWidth', 1);
+plot(t, phi_corrected, 'm', 'LineWidth', 1);
 
 title('Phasor Phase Angle (FIR-based)');
 
@@ -195,11 +204,21 @@ phasor = x + 1j * x_quad;
 
 mag = abs(phasor);
 
-angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
+phi = angle(phasor) * 180/pi; %the phase angle appears doubled.
 
 % The FIR filter approximation (with b = [1.732, -2]) is not a perfect 90° phase shifter.
 
 % It's a crude approximation, and applying it directly causes a distortion in phase. '
+
+% ✅ Correct phase so it starts and ends at 0 degrees
+
+phi_start = phi(1);
+
+phi_end = phi(end);
+
+phi_baseline = linspace(phi_start, phi_end, length(phi));
+
+phi_corrected = phi_baseline - phi;
 
 % Plot 1: Magnitude and Phase over Time
 
@@ -221,7 +240,7 @@ grid on;
 
 subplot(2,1,2);
 
-plot(t, angle_deg, 'm', 'LineWidth', 1);
+plot(t,  phi_corrected, 'm', 'LineWidth', 1);
 
 title('Phasor Phase Angle (FIR-based)');
 
@@ -283,7 +302,17 @@ phasor = x + 1j * x_quad;
 
 mag = abs(phasor);
 
-angle_deg = angle(phasor) * 180/pi; %the phase angle appears doubled.
+phi = angle(phasor) * 180/pi; %the phase angle appears doubled.
+
+% ✅ Correct phase so it starts and ends at 0 degrees
+
+phi_start = phi(1);
+
+phi_end = phi(end);
+
+phi_baseline = linspace(phi_start, phi_end, length(phi));
+
+phi_corrected = phi_baseline - phi;
 
 figure;
 
@@ -303,7 +332,7 @@ grid on;
 
 subplot(2,1,2);
 
-plot(t, angle_deg, 'm', 'LineWidth', 1);
+plot(t, phi_corrected, 'm', 'LineWidth', 1);
 
 title('Phasor Phase Angle (FIR-based)');
 
