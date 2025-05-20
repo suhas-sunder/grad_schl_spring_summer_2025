@@ -1,4 +1,4 @@
-![](../Images/20250519225715.png)
+![](../Images/202505192257156.png)
 ```
 fs = 720; % Sampling frequency
 
