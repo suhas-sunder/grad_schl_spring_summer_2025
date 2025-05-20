@@ -11,12 +11,14 @@
             "id": "9beb1375b0bbef5e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "special_topics_smart_grid/Images/Pasted image 20250519224922.png"
+                "file": "special_topics_smart_grid/MatLab/Rockerfeller And Udren.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250519224922"
+              "icon": "lucide-file",
+              "title": "Rockerfeller And Udren"
             }
           }
         ]
@@ -166,22 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fd748a4d372b509",
+  "active": "9beb1375b0bbef5e",
   "lastOpenFiles": [
     "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
-    "special_topics_smart_grid/MatLab/Rockerfeller And Udren.md",
     "special_topics_smart_grid/MatLab/Mann and Morrison.md",
     "special_topics_smart_grid/MatLab/Gilbert and Shovlin.md",
-    "special_topics_smart_grid/Images/Pasted image 20250519234002.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519233850.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519232300.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519232136.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519231428.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519231148.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519225715.png",
-    "special_topics_smart_grid/Images/Pasted image 20250519224948.png",
+    "special_topics_smart_grid/Images/20250519232300.png",
+    "special_topics_smart_grid/Images/20250519234002.png",
+    "special_topics_smart_grid/Images/20250519233850.png",
+    "special_topics_smart_grid/Images/20250519231428.png",
+    "special_topics_smart_grid/Images/20250519232136.png",
+    "special_topics_smart_grid/Images/20250519231148.png",
+    "special_topics_smart_grid/Images/20250519225715.png",
+    "special_topics_smart_grid/Images/20250519224922.png",
+    "special_topics_smart_grid/Images/20250519224948.png",
     "special_topics_smart_grid/Images/Pasted image 20250519224922.png",
-    "special_topics_smart_grid/Images/20250514170521.png",
+    "special_topics_smart_grid/MatLab/Rockerfeller And Udren.md",
     "special_topics_smart_grid/All Lectures/Fin_Ml/Miki and Mikano Algo.md",
     "special_topics_smart_grid/All Lectures/Final_Matlab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/All Lectures/Final_Matlab",
