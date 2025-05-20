@@ -1,9 +1,9 @@
-![](../../Images/20250513202017.png)
 ### Expected Plot From Lecture
 ![](../Images/20250513215336.png)
 ### Plot From Code
 ![](../Images/20250513215312.png)
-
+![](../Images/20250519224922.png)
+![](../Images/20250519224948.png)
 ```
 fs = 720; % Sampling frequency
 
