@@ -39,7 +39,7 @@
 			- 4800 at 60 Hz freq = 4800/60 = 80 then take 1/2 = 40 samples
 		- Fast transient response
 			- That means they react to changes very quickly.
-			- If there is suddenly a change in the magnitued for exxample, these  algroithms will respond to those changes very quickly.
+			- If there is suddenly a change in the magnitude for example, these  algorithms will respond to those changes very quickly.
 			- They require very few calulations. The amount of calculations are very important
 		- Have a bad response for inputs with frequencies other than the fundamental frequency.
 			- The preciseness goes down if frequencies come in that don't match the fundamental frequency.
@@ -83,7 +83,7 @@
 				- Very few calculations are required
 			- Disadvantages
 				- Noise affects performance
-				- Performance of harmonics has adverse  effects
+				- Performance of harmonics has adverse effects
 				- Decaying DC affects performance
 		- Mann and Morrison Algorithm
 			- Uses 3 samples within the window.

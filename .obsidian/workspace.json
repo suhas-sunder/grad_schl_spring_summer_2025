@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "special_topics_smart_grid/MatLab/Rockerfeller And Udren.md",
+                "file": "special_topics_smart_grid/Lectures/Lecture 5 - In Class Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rockerfeller And Udren"
+              "title": "Lecture 5 - In Class Notes"
             }
           }
         ]
@@ -170,10 +170,16 @@
   },
   "active": "9beb1375b0bbef5e",
   "lastOpenFiles": [
+    "special_topics_smart_grid/Lectures/Lecture 4 - In Class Notes.md",
+    "special_topics_smart_grid/Lectures/Lecture 5 - In Class Notes.md",
+    "special_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
+    "special_topics_smart_grid/All Lectures/Algorithms.pdf",
+    "special_topics_smart_grid/Quizzes.md",
+    "special_topics_smart_grid/All Lectures/course_outline.pdf",
+    "special_topics_smart_grid/MatLab/Rockerfeller And Udren.md",
     "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/MatLab/Gilbert and Shovlin.md",
     "special_topics_smart_grid/MatLab/Mann and Morrison.md",
-    "special_topics_smart_grid/MatLab/Rockerfeller And Udren.md",
     "special_topics_smart_grid/Images/20250519232300.png",
     "special_topics_smart_grid/Images/20250519234002.png",
     "special_topics_smart_grid/Images/20250519233850.png",
@@ -187,9 +193,7 @@
     "special_topics_smart_grid/All Lectures/Fin_Ml/Miki and Mikano Algo.md",
     "special_topics_smart_grid/All Lectures/Final_Matlab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/All Lectures/Final_Matlab",
-    "special_topics_smart_grid/Lectures/Lecture 4.md",
     "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
-    "special_topics_smart_grid/Quizzes.md",
     "special_topics_smart_grid/Study Notes/Lect.md",
     "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md",
     "special_topics_smart_grid/Study Notes/Lec 2 - North American Power System.md",

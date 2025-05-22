@@ -1,10 +1,10 @@
 
-### Gilbert and SHovling Algorithm
+### Gilbert and Shovling Algorithm
 - Not a digital filter
 	- Vp is non-linear
 	- Also, we're multiplying coefficients V- and V+
 	- Nonlinear eqn because we have v0^2 and V+ times V-
-- Doing a fourier analysis of decaying DC component, it will show that it contains DC and many low frequencies. Doesn't contain many high frequencies. This filter eliminates DC components but doesn't do well eliminating lower frequencies. Therefore, there is some oscillation because of the decaiying dc component on the magnitude plot.
+- Doing a fourier analysis of decaying DC component, it will show that it contains DC and many low frequencies. Doesn't contain many high frequencies. This filter eliminates DC components but doesn't do well eliminating lower frequencies. Therefore, there is some oscillation because of the decaying dc component on the magnitude plot.
 - Mann and morrison is a filter that does a good job of filtering lower frequencies.
 
 ### Assignment 1:
