@@ -26,4 +26,13 @@
 - Wed June 4th will be Least Error Square 
 
 ### Zero Crossing Method
-- 
+- M is the time at which we cross time 0.
+- tm is the time at each zero crossing. So for one full cycle we get tm = 0, tm at 1/2 cycle, and tm at full cycle.
+- Delta t is 1/(t2 - t1)
+- This will give us the frequency
+- This was the first frequency relay measurement technique they used
+- There are many issues with this technique. It works well for your first sinusoidal, but if the waveform gets squashed or something along the way, it adds many zero crossings. This can be fixed by adding filters first to fix the waveform then do the zero crossing. Must also be able to accurately measure the time when zero crossing happens. If you can't measure the time correctly then the resolution will not be good.
+- Modern relays don't use this technique. They use phasor based methods.
+
+### Phasor Based Technique
+- Homework is to take DFT filter and figure out if both real and imaginary filters are aligned. If not, then try changing sampling rate fs, or frequency to get it to be in sync.
