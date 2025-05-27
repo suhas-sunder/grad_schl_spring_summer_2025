@@ -1,4 +1,4 @@
-![](../Images/202505192257156.png)
+![](202505192257156.png)
 ```
 fs = 720; % Sampling frequency
 
@@ -49,7 +49,7 @@ title('Corrected Phase Response');
 grid on;
 ```
 
-![](../Images/20250519232136.png)
+![](20250519232136.png)
 
 ```
 fs = 720;
@@ -131,7 +131,7 @@ ylabel('Angle (degrees)');
 grid on;
 ```
 
-![](../Images/20250519232300.png)
+![](20250519232300.png)
 
 ```
 fs = 720;

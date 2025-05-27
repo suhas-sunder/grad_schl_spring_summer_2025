@@ -1,9 +1,9 @@
 ### Expected Plot From Lecture
-![](../Images/20250513215336.png)
+![](20250513215336.png)
 ### Plot From Code
-![](../Images/20250513215312.png)
-![](../Images/20250519224922.png)
-![](../Images/20250519224948.png)
+![](20250513215312.png)
+![](20250519224922.png)
+![](20250519224948.png)
 ```
 fs = 720; % Sampling frequency
 
@@ -72,10 +72,10 @@ ylim([-180 180]); % Sets y-axis range from 0 to 100 degrees
 
 ### Expected Plot From Lecture (Pure Sine)
 
-![](../Images/20250514084226.png)
+![](20250514084226.png)
 
 ### Plot From Code
-![](../Images/20250514082600.png)
+![](20250514082600.png)
 ```
 % Parameters
 
@@ -158,12 +158,12 @@ ylim([-180 180]);
 grid on;
 ```
 
-![](../Images/20250514082700.png)
+![](20250514082700.png)
 
 ### Plot from Lecture (Decaying DC)
-![](../Images/20250514083153.png)
+![](20250514083153.png)
 ### Plot From Code
-![](../Images/20250514083056.png)
+![](20250514083056.png)
 
 ```
 % Parameters
@@ -254,8 +254,8 @@ grid on;
 ```
 
 #### Slightly different DC input signal for the same
-![](../Images/20250514083153.png)
-![](../Images/20250514083911.png)
+![](20250514083153.png)
+![](20250514083911.png)
 
 ```
 % Parameters
