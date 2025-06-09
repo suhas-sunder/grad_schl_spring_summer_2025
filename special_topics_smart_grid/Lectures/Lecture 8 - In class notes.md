@@ -19,12 +19,9 @@
 	- With switched-capacitor filters, its the same as the op amp filters but put on a chip. You can put C and L on a chip but not R, so they used a capacitor that switches on and off to behave like a resistor. 
 - Data Acquisition
 	- Once data is passed through antia alising filter, then analog signals can be converted to digital signals to analyze the data.
-	- Need a buffer inbetween switch capacitor filters, a buffer is required to correct the input signal or something.
+	- Need a buffer in-between switch capacitor filters, a buffer is required to correct the input signal or something.
 	- Sample and hold the signal.
 	- Depending on how many A to D converters you use, you might need multiplexers.
-
-
-
 
 
 
