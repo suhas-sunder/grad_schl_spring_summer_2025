@@ -95,5 +95,33 @@ With pervasive computing and mobility, they are interconnected. Distributed syst
 - 1991 was the important part about History. The rest prof doesn't care about when it comes to the history.
 - Pervasive computing has been around for a very long time. Since the 70's.
 ![](./images/20250623110605.png)
+- Above is not addition. It is multiplexer (I think this means that out of all the items listed above, it could include multiple elements but not all by the time it gets to pervasive computing)
 - Distributed systems consist of multiple interconnected devices or nodes working collaboratively to perform complex tasks, offering scalability, fault tolerance, and speed for applications like e-commerce, video rendering, and scientific computing.
+- Mainframe: large computer that manages all server information. Multiple users can connect to it to perform CRUD operations etc.
+	- Dummy terminals were monitors that had keyboard and mouse that would plug into the network via network cable. Once it connects to the server the commandlet cmd could be used to pull info from the server. 
+		- Had a lot more disadvantages than advantages. Eg. if server dies everyone loses access.
+	- Mainly centralized
+	- Cannot use service when provider is off
+- Personal computer was the next stage: Shared the power of computational processes.
+- Pervasive computing era: Recent and future advancements.
+	- Have processors, memory, and are equal or more capable than personal computers.
+	- More computational power on the go.
+	- Decentralized
+	- Can use service while provider is off. Eg. Google maps
+- Heterogeneous Networks
+	- Networks from different network structures, protocols, or concepts
+- End-point application deployment
+	- Edge computing 
+		- Eg. sensors in a farm. These sensors are placed in a way that temp of soil, level of humidity, etc. is sensed and readings are handled by local server to provide solution for increased productivity and control
+		- Not the same as cloud computing. Just serves a specific part of computational service.
+- Unpredictable variation in network quality
+	- Eg. if there isn't enough bandwidth available at times for the requirement of the device being used in that area.
+- Lowered trust and robustness of mobile elements
+	- In the past people were very against changes in technology, but over time the sentiment has been changing towards embracing new tech.
+- Concern for battery power consumption
+	- Apple watch may only stay charged for 1 day
+	- Some new watches might last for one to two weeks
+	- Electric cars are limited by availability of charge
+- Smart environment meaning interconnected devices, sensors, etc.
+	- All facilities required to implement smart application is available.
 - 
