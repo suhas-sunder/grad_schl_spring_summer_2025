@@ -124,4 +124,16 @@ With pervasive computing and mobility, they are interconnected. Distributed syst
 	- Electric cars are limited by availability of charge
 - Smart environment meaning interconnected devices, sensors, etc.
 	- All facilities required to implement smart application is available.
-- 
+- Smart interactions meaning different components can talk to each to each other to collect data, pull/transfer information, etc.
+	- Places where data is collected there should be a clear policy.
+	- Same with the usage of drones for eg, requires a clear policy.
+- IoT: Internet of Things
+	- Any device that is connected together over the network.
+		- Eg. a sensor that measures the temperature and communicates that data with an app.
+	- Starts from identification, then sensing, communication, computation, services, and semantics.
+		- Identifies the environment or data
+		- Sensors pull information from current environment
+		- Communication layer between the devices to transfer data collected
+		- Computation is cleaning/removing noise/processing data on the server
+		- Services is using the data to provide a service to the client. Eg. notifying greenhouse temperature so client can adjust the control.
+		- Semantics: Predicting future outcomes, strategies based on collected data, etc.
