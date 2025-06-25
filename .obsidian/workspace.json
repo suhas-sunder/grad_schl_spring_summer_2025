@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pervasive_mobile_computing/Lecture Notes/Lecture 1.md",
+                "file": "advanced_optimization/Lecture Notes/Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "special_topics_smart_grid/MatLab/Miki and Mikano Algo.md",
+                "file": "advanced_optimization/Lecture Notes/Lecture 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Miki and Mikano Algo"
+              "title": "Backlinks for Lecture 1"
             }
           },
           {
@@ -170,21 +170,23 @@
   },
   "active": "9beb1375b0bbef5e",
   "lastOpenFiles": [
+    "advanced_optimization/Books/Metaheuristics.pdf",
+    "advanced_optimization/Books/Multiobjective-Optimization.pdf",
+    "advanced_optimization/Books",
+    "advanced_optimization/New folder",
+    "advanced_optimization/Lecture Slides/ENGR_5010G_Advanced_Optimization_Summer2025.pdf",
+    "advanced_optimization/Lecture Slides",
+    "pervasive_mobile_computing/Lecture Notes/Lecture 1.md",
+    "advanced_optimization/Lecture Notes/Lecture 1.md",
+    "advanced_optimization/Lecture Notes",
+    "advanced_optimization",
     "Pasted image 20250602111539.png",
     "pervasive_mobile_computing/Lecture Notes/images/20250623110605.png",
-    "pervasive_mobile_computing/Lecture Notes/Lecture 1.md",
     "pervasive_mobile_computing/Lecture Notes/images",
     "pervasive_mobile_computing/Books/Wiley.Ubiquitous.Computing.Smart.Devices.Environments.And.Interactions.May.2009.eBook.pdf",
     "pervasive_mobile_computing/Books/9780134175393.pdf",
-    "pervasive_mobile_computing/Books",
-    "pervasive_mobile_computing/New folder",
     "pervasive_mobile_computing/Welcome.md",
-    "pervasive_mobile_computing/Lecture Notes",
-    "pervasive_mobile_computing/Lecture Slides/Lecture 1.pdf",
-    "pervasive_mobile_computing/Lecture Slides",
     "special_topics_smart_grid/Lectures/Lecture 10 - In Class Notes.md",
-    "special_topics_smart_grid/All Lectures/Hardware_Brief.pdf",
-    "special_topics_smart_grid/All Lectures/FrequencyEstimation_Abbrv.pdf",
     "special_topics_smart_grid/Lectures/Lecture 9 - In Class Notes.md",
     "special_topics_smart_grid/Lectures/Lecture 8 - In class notes.md",
     "special_topics_smart_grid/MatLab/trig/Rockerfeller And Udren.md",
@@ -213,7 +215,6 @@
     "special_topics_smart_grid/All Lectures/Final_Matlab/Miki and Mikano Algo.md",
     "special_topics_smart_grid/Study Notes/Lec 2 - Protection Basics.md",
     "special_topics_smart_grid/Study Notes/Lect.md",
-    "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md",
-    "special_topics_smart_grid/Study Notes/Lec 2 - North American Power System.md"
+    "special_topics_smart_grid/Study Notes/Lecture 3 - TrigAlg.md"
   ]
 }
