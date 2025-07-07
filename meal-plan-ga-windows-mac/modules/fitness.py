@@ -5,7 +5,7 @@ import time
 def diet_fitness(individual):
     # Simulate some CPU work (~1 ms) to make fitness evaluation realistic
     #_ = sum(i ** 2 for i in range(10000))
-    time.sleep(0.00001)  # sleep for 10 milliseconds
+    time.sleep(0.0002)  # sleep for 10 milliseconds
 
     # Convert individual (list of 0/1) to numpy array for vectorized operations
     selected = np.array(individual)
