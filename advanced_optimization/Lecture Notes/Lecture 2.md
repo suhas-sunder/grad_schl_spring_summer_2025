@@ -4,7 +4,6 @@
 	- Reading material. Book chapters.
 	- Papers
 	- Tools and implementations
-
 ### Project
 -  Any reference older than 10 years is not allowed. Anything before 2015 is not good.
 	- Any paper from IEEE, ACM, Springer or has some citations are valid.
@@ -18,8 +17,6 @@
 - Find ways to extend lifespan of batteries
 	- Better cooling
 - Three topics with three papers.
-
-
 ### Why design efficient optimization algorithms?
 - Problem landscape
 	- Visual idea about the quality of problem we are looking into. 
