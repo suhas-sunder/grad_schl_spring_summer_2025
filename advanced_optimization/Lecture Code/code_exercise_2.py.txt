@@ -1,0 +1,60 @@
+import random
+
+# Problem: Maximize f(x) = x^2, where x is a 5-bit integer (0 to 31).
+gene_length = 5
+pop_size = 8
+
+# Decode a binary chromosome to its integer value.
+def decode(chromosome):
+    return int("".join(map(str, chromosome)), 2)
+
+# Fitness function: square of the decoded value.
+def fitness(chromosome):
+    x = decode(chromosome)
+    return x * x
+
+# Initialize population with random 5-bit chromosomes.
+population = [[random.randint(0, 1) for _ in range(gene_length)] for _ in range(pop_size)]
+
+for generation in range(20):
+    # Evaluate fitness of each individual
+    fitness_values = [fitness(chrom) for chrom in population]
+
+    # Helper: tournament selection for parent
+    def select_parent():
+        i, j = random.sample(range(pop_size), 2)
+        # Return the fitter individual
+        return population[i] if fitness_values[i] > fitness_values[j] else population[j]
+
+    new_population = []
+    # Produce new offspring until new_population is full
+    while len(new_population) < pop_size:
+        # Select two parents
+        parent1 = select_parent()
+        parent2 = select_parent()
+        # Crossover: single-point crossover with probability 0.7
+        if random.random() < 0.7:
+            cp = random.randint(1, gene_length - 1)  # crossover point
+            child1 = parent1[:cp] + parent2[cp:]
+            child2 = parent2[:cp] + parent1[cp:]
+        else:
+            # No crossover: offspring are copies of parents
+            child1, child2 = parent1[:], parent2[:]
+        # Mutation: flip bits with small probability (0.1)
+        for child in (child1, child2):
+            for bit in range(gene_length):
+                if random.random() < 0.1:
+                    child[bit] = 1 - child[bit]
+            new_population.append(child)
+            if len(new_population) >= pop_size:
+                break
+    population = new_population
+
+# After evolution, pick the best solution
+best = max(population, key=fitness)
+best_x = decode(best)
+print("Best solution:", best, "decoded as", best_x, "with fitness", fitness(best))
+#This indicates the algorithm found the optimal value 𝑥=31 (binary 11111) which yields 31^2=961.
+#Due to randomness, each run can converge to the optimum or a near-optimal solution.
+#This example illustrates how selection favors higher-fitness individuals, crossover recombines their bits, and
+#occasional mutation introduces new variations, enabling the GA to evolve better solutions over time.

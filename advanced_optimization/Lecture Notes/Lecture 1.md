@@ -33,6 +33,29 @@
 			- Final paper (IEEE conference format 12pt font as pdf)
 			- Group member evaluation (Individual submission)
 
+### Problem Statement
+- Identify the problem
+- The goal
+- Start by mentioning the gap
+- And the objectives
+- What is not there, and if it is there, why is it not efficient? Any number put in any context must be supported with reference.
+- Don't say it doesn't exist or no work has been done. We have not yet found a solution.
+
+### EXAM
+- Prof might remove/change parts of code he's given us and ask us to change it/fix it.
+- He might as us to do pseudocode or create a flow chart.
+- If prof provides an extra bit, positive and negative, what are the two solutions we get instead of just one?
+
+### Next submission
+- Explain why we chose PSO & GA for each problem or area.
+
+
+### Genetic Algorithm
+	- Population of Solutions
+	- Fitness Evaluation
+	- Selection
+	- 
+
 ### What is Optimization?
 - Whatever problem you are trying to deal with, the goal is to get the best result out of it.
 - Simplest example is a bucket that you are trying to fill up. What is the fastest way to fill up the bucket in the most optimal way. 
