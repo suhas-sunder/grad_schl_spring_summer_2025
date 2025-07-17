@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced_optimization/Lecture Notes/Lecture 1.md",
+                "file": "advanced_optimization/Lecture Notes/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Lecture 6"
             }
           }
         ]
@@ -170,8 +170,11 @@
   },
   "active": "9beb1375b0bbef5e",
   "lastOpenFiles": [
-    "advanced_optimization/Lecture Code/code_exercise_1.py.txt",
+    "advanced_optimization/Lecture Code/code_exercise_3.py.txt",
     "advanced_optimization/Lecture Code/New Text Document.txt",
+    "advanced_optimization/Lecture Notes/Lecture 1.md",
+    "advanced_optimization/Lecture Notes/Lecture 6.md",
+    "advanced_optimization/Lecture Code/code_exercise_1.py.txt",
     "advanced_optimization/Lecture Code/code_exercise_2.py.txt",
     "advanced_optimization/Lecture Code/New folder",
     "advanced_optimization/Lecture Code",
@@ -190,10 +193,8 @@
     "advanced_optimization/assignments/adv_opt_assignment_1_suhas_sunder_100548159/Unconfirmed 875184.crdownload",
     "pervasive_mobile_computing/Lecture Notes/Lecture 1.md",
     "pervasive_mobile_computing/Lecture Notes/Lecture 3.md",
-    "pervasive_mobile_computing/Books/Getting Started with Bluetooth Low Energy.pdf",
     "advanced_optimization/Lecture Notes/Lecture 2.md",
     "pervasive_mobile_computing/Lecture Notes/Lecture 2.md",
-    "advanced_optimization/Lecture Notes/Lecture 1.md",
     "Pasted image 20250602111539.png",
     "pervasive_mobile_computing/Lecture Notes/images/20250623110605.png",
     "pervasive_mobile_computing/Welcome.md",
@@ -214,7 +215,6 @@
     "special_topics_smart_grid/Lectures/Lecture 3 - In Class Notes.md",
     "special_topics_smart_grid/Quizzes.md",
     "special_topics_smart_grid/MatLab/trig/Miki and Mikano Algo.md",
-    "special_topics_smart_grid/All Lectures/Fin_Ml/Miki and Mikano Algo.md",
-    "special_topics_smart_grid/All Lectures/Final_Matlab/Miki and Mikano Algo.md"
+    "special_topics_smart_grid/All Lectures/Fin_Ml/Miki and Mikano Algo.md"
   ]
 }

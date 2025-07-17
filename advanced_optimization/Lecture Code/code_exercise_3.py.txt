@@ -1,0 +1,29 @@
+import numpy as np
+from scipy.optimize import differential_evolution
+
+# Simplified weight function
+def spring_weight(x):
+    d, D, N = x
+    return d * D * N  # Weight formula
+
+# Variable bounds
+bounds = [(1.0, 3.0), (10.0, 30.0), (5.0, 15.0)]
+
+# Run DE
+result = differential_evolution(spring_weight, bounds, seed=42)
+
+# Display the best design
+d, D, N = result.x
+print(f"Optimal Design:")
+print(f"Wire diameter d = {d:.2f} mm")
+print(f"Coil diameter D = {D:.2f} mm")
+print(f"Number of coils N = {N:.2f}")
+print(f"Minimum weight = {spring_weight(result.x):.2f}")
+
+#Run the code and observe the output.
+
+#Modify the bounds: Try making d range from [1.5, 2.5] and see if the result changes.
+
+#Add a penalty: Try modifying the function to penalize N > 13 by adding +100 to the weight if N > 13 (e.g: penalty = 100 if N > 13 else 0).
+
+#Round N: Treat N as integer by rounding x[2] in the function and rerun the optimization (e.g: N = round(N)).
